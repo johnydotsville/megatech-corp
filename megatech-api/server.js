@@ -20,8 +20,6 @@ try {
   team = [];
 }
 
-console.log(team.length);
-console.log(team[0] || 'Нема сотрудников');
 
 
 app.use((request, response, next) => {
@@ -37,6 +35,29 @@ app.get('/team/:id', (request, response) => {
   const employee = team.find(emp => emp.id === id);
   response.json(employee);
 });
+
+
+
+app.get('/team', (request, response) => {
+  let { page = 1, limit = 10 } = request.query;
+
+  page = parseInt(page);
+  limit = parseInt(limit);
+
+  if (isNaN(page) || page < 1) page = 1;
+  if (isNaN(limit) || limit < 1) limit = 10;
+
+  limit = Math.min(limit, 25);
+  const maxPage = Math.ceil(team.length / limit);
+
+  if (page > maxPage) page = maxPage;
+
+  const offset = (page-1) * limit;
+
+  const employees = team.slice(offset, offset + limit);
+
+  response.json(employees);
+})
 
 
 // Запуск сервера

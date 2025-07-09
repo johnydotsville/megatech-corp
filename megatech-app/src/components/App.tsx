@@ -1,8 +1,8 @@
-import { Employee } from "./Employee"
+import { EmployeePagination } from '@components/EmployeePagination';
 
 
 export function App() {
   return (
-    <Employee id={10} />
+    <EmployeePagination page={1} limit={15} />
   )
 }
