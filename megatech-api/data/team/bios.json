@@ -4,27 +4,27 @@
     "fullName": "Алексей Сергеевич Волков",
     "sex": "male",
     "skills": {
-      "Направление": ["Backend-разработка"],
-      "Языки": ["Русский", "Английский", "Немецкий"],
-      "Технологии": ["Java", "Spring Boot", "Kafka", "PostgreSQL"],
-      "Платформы": ["Linux", "Docker"]
+      "specialization": ["Backend-разработка"],
+      "langs": ["Русский", "Английский", "Немецкий"],
+      "techs": ["Java", "Spring Boot", "Kafka", "PostgreSQL"],
+      "platforms": ["Linux", "Docker"]
     },
     "experienceYears": 7,
     "contacts": {
       "email": "a.volkov.dev@gmail.com",
       "phone": "+7 (915) 123-45-67"
     },
-    "bio": "Алексей — senior backend-разработчик с 7-летним опытом создания высоконагруженных систем. Начинал карьеру в Сбере, где разрабатывал микросервисы для обработки платежей. Затем перешел в Авито, где занимался оптимизацией API для поискового движка, что позволило снизить время отклика на 30%. В настоящее время работает в Lamoda Tech, где проектирует архитектуру системы управления складскими запасами. Специализируется на разработке распределенных систем, оптимизации запросов к базам данных и внедрении event-driven архитектуры. Имеет опыт работы с Kubernetes, мониторингом (Prometheus, Grafana) и системами логирования (ELK stack). Руководил командой из 4 разработчиков при миграции монолита на микросервисы. Реализовал систему кеширования, которая сократила нагрузку на БД на 60%. Постоянно изучает новые технологии, участвует в конференциях как спикер."
+    "bio": "Алексей — senior backend-разработчик с 7-летним опытом создания высоконагруженных систем. Начинал карьеру в Сбере, где разрабатывал микросервисы для обработки платежей. Затем перешел в Авито, где занимался оптимизацией API для поискового движка, что позволило снизить время отклика на 30%. В настоящее время работает в Lamoda Tech, где проектирует архитектуру системы управления складскими запасами. Специализируется на разработке распределенных систем, оптимизации запросов к базам данных и внедрении event-driven архитектуры. Имеет опыт работы с Kubernetes, мониторингом (Prometheus, Grafana) и системами логирования (ELK stack). Руководил командой из 4 разработчиков при миграции монолита на микросервисы. Реализовал систему кеширования, которая сократила нагрузку на БД на 60%. Постоянно изучает новые techs, участвует в конференциях как спикер."
   },
   {
     "id": 2,
     "fullName": "Дмитрий Андреевич Соколов",
     "sex": "male",
     "skills": {
-      "Направление": ["Data Science"],
-      "Языки": ["Русский", "Английский", "Французский"],
-      "Технологии": ["Python", "PyTorch", "TensorFlow", "OpenCV"],
-      "Платформы": ["Linux", "Windows"]
+      "specialization": ["Data Science"],
+      "langs": ["Русский", "Английский", "Французский"],
+      "techs": ["Python", "PyTorch", "TensorFlow", "OpenCV"],
+      "platforms": ["Linux", "Windows"]
     },
     "experienceYears": 5,
     "contacts": {
@@ -38,10 +38,10 @@
     "fullName": "Иван Николаевич Козлов",
     "sex": "male",
     "skills": {
-      "Направление": ["DevOps"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Kubernetes", "Terraform", "Ansible", "AWS"],
-      "Платформы": ["Linux", "MacOS"]
+      "specialization": ["DevOps"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Kubernetes", "Terraform", "Ansible", "AWS"],
+      "platforms": ["Linux", "MacOS"]
     },
     "experienceYears": 8,
     "contacts": {
@@ -55,10 +55,10 @@
     "fullName": "Михаил Олегович Белов",
     "sex": "male",
     "skills": {
-      "Направление": ["Frontend-разработка"],
-      "Языки": ["Русский", "Английский", "Испанский"],
-      "Технологии": ["React", "TypeScript", "Next.js", "GraphQL"],
-      "Платформы": ["MacOS", "Windows"]
+      "specialization": ["Frontend-разработка"],
+      "langs": ["Русский", "Английский", "Испанский"],
+      "techs": ["React", "TypeScript", "Next.js", "GraphQL"],
+      "platforms": ["MacOS", "Windows"]
     },
     "experienceYears": 6,
     "contacts": {
@@ -72,10 +72,10 @@
     "fullName": "Андрей Викторович Морозов",
     "sex": "male",
     "skills": {
-      "Направление": ["Кибербезопасность"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["SIEM", "IDS/IPS", "Metasploit", "Burp Suite"],
-      "Платформы": ["Kali Linux", "Windows Server"]
+      "specialization": ["Кибербезопасность"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["SIEM", "IDS/IPS", "Metasploit", "Burp Suite"],
+      "platforms": ["Kali Linux", "Windows Server"]
     },
     "experienceYears": 9,
     "contacts": {
@@ -89,44 +89,44 @@
     "fullName": "Павел Денисович Гусев",
     "sex": "male",
     "skills": {
-      "Направление": ["Fullstack-разработка"],
-      "Языки": ["Русский", "Английский", "Китайский"],
-      "Технологии": ["Node.js", "React", "MongoDB", "Docker"],
-      "Платформы": ["Linux", "MacOS"]
+      "specialization": ["Fullstack-разработка"],
+      "langs": ["Русский", "Английский", "Китайский"],
+      "techs": ["Node.js", "React", "MongoDB", "Docker"],
+      "platforms": ["Linux", "MacOS"]
     },
     "experienceYears": 5,
     "contacts": {
       "email": "p.gusev.fullstack@gmail.com",
       "phone": "+7 (915) 678-90-12"
     },
-    "bio": "Павел — fullstack разработчик с 5-летним опытом создания end-to-end решений. Начинал карьеру в стартапе по разработке edtech платформы, где отвечал как за фронтенд, так и за бекенд. Затем работал в Алисе (Яндекс), где участвовал в создании голосовых навыков. В настоящее время работает в международной компании Remote, разрабатывающей платформу для удаленных команд. Специализируется на JavaScript-стеке (MEAN/MERN), но также имеет опыт с Python (Django) и PHP (Laravel). Разработал систему real-time коллаборации, которая позволяет нескольким пользователям одновременно редактировать документы. Оптимизировал производительность приложения, сократив время загрузки с 5 до 1 секунды. Имеет опыт работы с WebSockets, Server-Sent Events и другими технологиями real-time взаимодействия. Участвует в хакатонах как fullstack разработчик, ведет блог про современные веб-технологии."
+    "bio": "Павел — fullstack разработчик с 5-летним опытом создания end-to-end решений. Начинал карьеру в стартапе по разработке edtech platforms, где отвечал как за фронтенд, так и за бекенд. Затем работал в Алисе (Яндекс), где участвовал в создании голосовых навыков. В настоящее время работает в международной компании Remote, разрабатывающей платформу для удаленных команд. Специализируется на JavaScript-стеке (MEAN/MERN), но также имеет опыт с Python (Django) и PHP (Laravel). Разработал систему real-time коллаборации, которая позволяет нескольким пользователям одновременно редактировать документы. Оптимизировал производительность приложения, сократив время загрузки с 5 до 1 секунды. Имеет опыт работы с WebSockets, Server-Sent Events и другими технологиями real-time взаимодействия. Участвует в хакатонах как fullstack разработчик, ведет блог про современные веб-techs."
   },
   {
     "id": 7,
     "fullName": "Роман Игоревич Новиков",
     "sex": "male",
     "skills": {
-      "Направление": ["Cloud-инженерия"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["AWS", "Terraform", "Serverless", "Kubernetes"],
-      "Платформы": ["Linux", "Windows Server"]
+      "specialization": ["Cloud-инженерия"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["AWS", "Terraform", "Serverless", "Kubernetes"],
+      "platforms": ["Linux", "Windows Server"]
     },
     "experienceYears": 7,
     "contacts": {
       "email": "r.novikov.cloud@gmail.com",
       "phone": "+7 (915) 789-01-23"
     },
-    "bio": "Роман — cloud архитектор с 7-летним опытом работы с облачными технологиями. Начинал карьеру в Mail.ru Group, где занимался миграцией сервисов в private cloud. Затем работал в AWS Professional Services, помогая клиентам переносить инфраструктуру в облако. В настоящее время работает в Spotify, где проектирует глобальную облачную инфраструктуру для стриминга музыки. Специализируется на multi-cloud стратегиях (AWS, GCP, Azure), serverless архитектуре и cost optimization. Имеет все top AWS сертификации, включая Solutions Architect Professional и DevOps Engineer Professional. Разработал систему автоматического управления ресурсами, которая сэкономила компании $2M в год. Руководил миграцией монолитного приложения на микросервисы в облаке, что повысило отказоустойчивость и масштабируемость. Регулярно выступает на облачных конференциях, ведет подкаст про cloud технологии. Автор нескольких open-source инструментов для работы с AWS."
+    "bio": "Роман — cloud архитектор с 7-летним опытом работы с облачными технологиями. Начинал карьеру в Mail.ru Group, где занимался миграцией сервисов в private cloud. Затем работал в AWS Professional Services, помогая клиентам переносить инфраструктуру в облако. В настоящее время работает в Spotify, где проектирует глобальную облачную инфраструктуру для стриминга музыки. Специализируется на multi-cloud стратегиях (AWS, GCP, Azure), serverless архитектуре и cost optimization. Имеет все top AWS сертификации, включая Solutions Architect Professional и DevOps Engineer Professional. Разработал систему автоматического управления ресурсами, которая сэкономила компании $2M в год. Руководил миграцией монолитного приложения на микросервисы в облаке, что повысило отказоустойчивость и масштабируемость. Регулярно выступает на облачных конференциях, ведет подкаст про cloud techs. Автор нескольких open-source инструментов для работы с AWS."
   },
   {
     "id": 8,
     "fullName": "Сергей Петрович Крылов",
     "sex": "male",
     "skills": {
-      "Направление": ["Мобильная разработка"],
-      "Языки": ["Русский", "Английский", "Португальский"],
-      "Технологии": ["Kotlin", "Swift", "Flutter", "Firebase"],
-      "Платформы": ["Android", "iOS"]
+      "specialization": ["Мобильная разработка"],
+      "langs": ["Русский", "Английский", "Португальский"],
+      "techs": ["Kotlin", "Swift", "Flutter", "Firebase"],
+      "platforms": ["Android", "iOS"]
     },
     "experienceYears": 6,
     "contacts": {
@@ -140,10 +140,10 @@
     "fullName": "Артём Вадимович Зимин",
     "sex": "male",
     "skills": {
-      "Направление": ["QA / Тестирование"],
-      "Языки": ["Русский", "Английский", "Японский"],
-      "Технологии": ["Selenium", "Cypress", "JMeter", "Appium"],
-      "Платформы": ["Windows", "Linux"]
+      "specialization": ["QA / Тестирование"],
+      "langs": ["Русский", "Английский", "Японский"],
+      "techs": ["Selenium", "Cypress", "JMeter", "Appium"],
+      "platforms": ["Windows", "Linux"]
     },
     "experienceYears": 8,
     "contacts": {
@@ -157,44 +157,44 @@
     "fullName": "Кирилл Анатольевич Баранов",
     "sex": "male",
     "skills": {
-      "Направление": ["UI/UX-дизайн"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Figma", "Sketch", "Adobe XD", "Photoshop"],
-      "Платформы": ["MacOS", "Windows"]
+      "specialization": ["UI/UX-дизайн"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Figma", "Sketch", "Adobe XD", "Photoshop"],
+      "platforms": ["MacOS", "Windows"]
     },
     "experienceYears": 7,
     "contacts": {
       "email": "k.baranov.design@gmail.com",
       "phone": "+7 (915) 012-34-56"
     },
-    "bio": "Кирилл — senior product designer с 7-летним опытом создания пользовательских интерфейсов. Начинал карьеру в веб-студии, разрабатывая дизайн для корпоративных сайтов. Затем работал в Сбербанке над redesign мобильного приложения, что повысило NPS на 20 пунктов. В настоящее время работает в Spotify, создавая интерфейсы для музыкальных сервисов. Специализируется на дизайн-системах, user research и prototyping. Разработал дизайн-систему, которая ускорила процесс разработки интерфейсов на 40%. Провел более 50 usability тестирований, выявляя pain points пользователей. Имеет опыт работы с анимацией интерфейсов (After Effects, Principle) и accessibility (WCAG). Руководил командой из 3 дизайнеров при создании платформы для подкастов. Участвует в дизайн-спринтах, проводит воркшопы по Figma, ведет блог про UX-тренды. Победитель нескольких дизайн-хакатонов, его работы были отмечены на Awwwards и Behance."
+    "bio": "Кирилл — senior product designer с 7-летним опытом создания пользовательских интерфейсов. Начинал карьеру в веб-студии, разрабатывая дизайн для корпоративных сайтов. Затем работал в Сбербанке над redesign мобильного приложения, что повысило NPS на 20 пунктов. В настоящее время работает в Spotify, создавая интерфейсы для музыкальных сервисов. Специализируется на дизайн-системах, user research и prototyping. Разработал дизайн-систему, которая ускорила процесс разработки интерфейсов на 40%. Провел более 50 usability тестирований, выявляя pain points пользователей. Имеет опыт работы с анимацией интерфейсов (After Effects, Principle) и accessibility (WCAG). Руководил командой из 3 дизайнеров при создании platforms для подкастов. Участвует в дизайн-спринтах, проводит воркшопы по Figma, ведет блог про UX-тренды. Победитель нескольких дизайн-хакатонов, его работы были отмечены на Awwwards и Behance."
   },
   {
     "id": 11,
     "fullName": "Егор Станиславович Широков",
     "sex": "male",
     "skills": {
-      "Направление": ["Backend-разработка"],
-      "Языки": ["Русский", "Английский", "Испанский"],
-      "Технологии": ["Go", "Kafka", "gRPC", "PostgreSQL", "Redis"],
-      "Платформы": ["Linux", "Docker", "Kubernetes"]
+      "specialization": ["Backend-разработка"],
+      "langs": ["Русский", "Английский", "Испанский"],
+      "techs": ["Go", "Kafka", "gRPC", "PostgreSQL", "Redis"],
+      "platforms": ["Linux", "Docker", "Kubernetes"]
     },
     "experienceYears": 8,
     "contacts": {
       "email": "e.shirokov.backend@gmail.com",
       "phone": "+7 (916) 123-45-67"
     },
-    "bio": "Егор — архитектор высоконагруженных распределённых систем с 8-летним опытом. Начинал карьеру в Mail.ru Group, участвуя в разработке микросервисов для почтового сервиса. В Rambler возглавлял команду, разрабатывающую API для новостной платформы с нагрузкой 50 000 RPS. В настоящее время работает в Delivery Club, где проектирует систему обработки заказов с гарантированной доставкой сообщений. Специализируется на оптимизации производительности (снизил 99-й перцентиль latency с 1200ms до 150ms в ключевом сервисе) и построении отказоустойчивых систем (достиг 99.99% uptime). Разработал фреймворк для распределённых транзакций в eventually consistent архитектуре. Имеет патент на алгоритм эффективного шардирования временных рядов. Регулярно выступает на HighLoad++ и других профильных конференциях. Автор open-source библиотеки для работы с circuit breakers на Go."
+    "bio": "Егор — архитектор высоконагруженных распределённых систем с 8-летним опытом. Начинал карьеру в Mail.ru Group, участвуя в разработке микросервисов для почтового сервиса. В Rambler возглавлял команду, разрабатывающую API для новостной platforms с нагрузкой 50 000 RPS. В настоящее время работает в Delivery Club, где проектирует систему обработки заказов с гарантированной доставкой сообщений. Специализируется на оптимизации производительности (снизил 99-й перцентиль latency с 1200ms до 150ms в ключевом сервисе) и построении отказоустойчивых систем (достиг 99.99% uptime). Разработал фреймворк для распределённых транзакций в eventually consistent архитектуре. Имеет патент на алгоритм эффективного шардирования временных рядов. Регулярно выступает на HighLoad++ и других профильных конференциях. Автор open-source библиотеки для работы с circuit breakers на Go."
   },
   {
     "id": 12,
     "fullName": "Николай Геннадьевич Орлов",
     "sex": "male",
     "skills": {
-      "Направление": ["Data Engineering"],
-      "Языки": ["Русский", "Английский", "Немецкий"],
-      "Технологии": ["Apache Spark", "Airflow", "Hadoop", "Flink", "Snowflake"],
-      "Платформы": ["Linux", "AWS", "GCP"]
+      "specialization": ["Data Engineering"],
+      "langs": ["Русский", "Английский", "Немецкий"],
+      "techs": ["Apache Spark", "Airflow", "Hadoop", "Flink", "Snowflake"],
+      "platforms": ["Linux", "AWS", "GCP"]
     },
     "experienceYears": 7,
     "contacts": {
@@ -208,10 +208,10 @@
     "fullName": "Владимир Александрович Фролов",
     "sex": "male",
     "skills": {
-      "Направление": ["DevOps", "SRE"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Kubernetes", "Istio", "ArgoCD", "Prometheus", "Grafana"],
-      "Платформы": ["GCP", "AWS", "On-prem"]
+      "specialization": ["DevOps", "SRE"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Kubernetes", "Istio", "ArgoCD", "Prometheus", "Grafana"],
+      "platforms": ["GCP", "AWS", "On-prem"]
     },
     "experienceYears": 10,
     "contacts": {
@@ -225,10 +225,10 @@
     "fullName": "Константин Борисович Савельев",
     "sex": "male",
     "skills": {
-      "Направление": ["Machine Learning Engineering"],
-      "Языки": ["Русский", "Английский", "Французский"],
-      "Технологии": ["Python", "TensorFlow", "Kubeflow", "Ray", "MLflow"],
-      "Платформы": ["Linux", "AWS SageMaker"]
+      "specialization": ["Machine Learning Engineering"],
+      "langs": ["Русский", "Английский", "Французский"],
+      "techs": ["Python", "TensorFlow", "Kubeflow", "Ray", "MLflow"],
+      "platforms": ["Linux", "AWS SageMaker"]
     },
     "experienceYears": 6,
     "contacts": {
@@ -242,10 +242,10 @@
     "fullName": "Тимофей Леонидович Ермаков",
     "sex": "male",
     "skills": {
-      "Направление": ["Frontend-архитектура"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["TypeScript", "React", "GraphQL", "Webpack", "Next.js"],
-      "Платформы": ["MacOS", "Linux"]
+      "specialization": ["Frontend-архитектура"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["TypeScript", "React", "GraphQL", "Webpack", "Next.js"],
+      "platforms": ["MacOS", "Linux"]
     },
     "experiencеYears": 9,
     "contacts": {
@@ -259,27 +259,27 @@
     "fullName": "Глеб Артёмович Кудрявцев",
     "sex": "male",
     "skills": {
-      "Направление": ["Cloud Security"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["AWS IAM", "Terraform", "SIEM", "OWASP", "KMS"],
-      "Платформы": ["AWS", "GCP", "Azure"]
+      "specialization": ["Cloud Security"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["AWS IAM", "Terraform", "SIEM", "OWASP", "KMS"],
+      "platforms": ["AWS", "GCP", "Azure"]
     },
     "experienceYears": 11,
     "contacts": {
       "email": "g.kudryavtsev.sec@gmail.com",
       "phone": "+7 (916) 678-90-12"
     },
-    "bio": "Глеб — директор по кибербезопасности с фокусом на облачные технологии. В Kaspersky построил SOC для защиты SaaS-продуктов (24/7 monitoring). В VK Cloud Solutions разработал: 1) Multi-account landing zone, 2) Automated compliance framework (GDPR, PCI DSS), 3) Threat intelligence platform. Сейчас CISO в международной fintech-компании. Достижения: 1) Предотвратил криптоджекинг атаку (экономия $500k+), 2) Внедрил zero-trust architecture, 3) Создал security champions program (50+ trained engineers). Эксперт в: 1) Cloud hardening (CIS benchmarks), 2) Secrets management (Hashicorp Vault + автоrotation), 3) Container security (Falco, Aqua). Имеет 15+ сертификаций: CISSP, CCSP, AWS Security Specialty. Автор методики 'Security as Code' (Terraform + Checkov + OPA). Член ENISA экспертного совета, лектор в МФТИ."
+    "bio": "Глеб — директор по кибербезопасности с фокусом на облачные techs. В Kaspersky построил SOC для защиты SaaS-продуктов (24/7 monitoring). В VK Cloud Solutions разработал: 1) Multi-account landing zone, 2) Automated compliance framework (GDPR, PCI DSS), 3) Threat intelligence platform. Сейчас CISO в международной fintech-компании. Достижения: 1) Предотвратил криптоджекинг атаку (экономия $500k+), 2) Внедрил zero-trust architecture, 3) Создал security champions program (50+ trained engineers). Эксперт в: 1) Cloud hardening (CIS benchmarks), 2) Secrets management (Hashicorp Vault + автоrotation), 3) Container security (Falco, Aqua). Имеет 15+ сертификаций: CISSP, CCSP, AWS Security Specialty. Автор методики 'Security as Code' (Terraform + Checkov + OPA). Член ENISA экспертного совета, лектор в МФТИ."
   },
   {
     "id": 17,
     "fullName": "Данила Романович Маслов",
     "sex": "male",
     "skills": {
-      "Направление": ["Мобильная разработка"],
-      "Языки": ["Русский", "Английский", "Китайский"],
-      "Технологии": ["Kotlin", "Swift", "Flutter", "Firebase", "gRPC"],
-      "Платформы": ["Android", "iOS", "HarmonyOS"]
+      "specialization": ["Мобильная разработка"],
+      "langs": ["Русский", "Английский", "Китайский"],
+      "techs": ["Kotlin", "Swift", "Flutter", "Firebase", "gRPC"],
+      "platforms": ["Android", "iOS", "HarmonyOS"]
     },
     "experienceYears": 8,
     "contacts": {
@@ -293,10 +293,10 @@
     "fullName": "Максим Валерьевич Тихонов",
     "sex": "male",
     "skills": {
-      "Направление": ["Backend-разработка"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Go", "Kafka", "PostgreSQL", "Redis", "Kubernetes"],
-      "Платформы": ["Linux", "AWS", "Yandex Cloud"]
+      "specialization": ["Backend-разработка"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Go", "Kafka", "PostgreSQL", "Redis", "Kubernetes"],
+      "platforms": ["Linux", "AWS", "Yandex Cloud"]
     },
     "experienceYears": 7,
     "contacts": {
@@ -310,10 +310,10 @@
     "fullName": "Ярослав Кириллович Кузнецов",
     "sex": "male",
     "skills": {
-      "Направление": ["DevOps"],
-      "Языки": ["Русский", "Английский", "Немецкий"],
-      "Технологии": ["Terraform", "Ansible", "Prometheus", "Grafana", "ArgoCD"],
-      "Платформы": ["AWS", "Kubernetes", "OpenStack"]
+      "specialization": ["DevOps"],
+      "langs": ["Русский", "Английский", "Немецкий"],
+      "techs": ["Terraform", "Ansible", "Prometheus", "Grafana", "ArgoCD"],
+      "platforms": ["AWS", "Kubernetes", "OpenStack"]
     },
     "experienceYears": 12,
     "contacts": {
@@ -327,10 +327,10 @@
     "fullName": "Станислав Дмитриевич Блинов",
     "sex": "male",
     "skills": {
-      "Направление": ["Data Science"],
-      "Языки": ["Русский", "Английский", "Французский"],
-      "Технологии": ["Python", "PyTorch", "scikit-learn", "Apache Spark", "MLflow"],
-      "Платформы": ["Linux", "AWS SageMaker", "Databricks"]
+      "specialization": ["Data Science"],
+      "langs": ["Русский", "Английский", "Французский"],
+      "techs": ["Python", "PyTorch", "scikit-learn", "Apache Spark", "MLflow"],
+      "platforms": ["Linux", "AWS SageMaker", "Databricks"]
     },
     "experienceYears": 9,
     "contacts": {
@@ -344,10 +344,10 @@
     "fullName": "Виктор Семёнович Шестаков",
     "sex": "male",
     "skills": {
-      "Направление": ["Backend-разработка"],
-      "Языки": ["Русский", "Английский", "Китайский"],
-      "Технологии": ["Java", "Spring Boot", "Kafka", "MongoDB", "gRPC"],
-      "Платформы": ["Linux", "Docker", "Kubernetes"]
+      "specialization": ["Backend-разработка"],
+      "langs": ["Русский", "Английский", "Китайский"],
+      "techs": ["Java", "Spring Boot", "Kafka", "MongoDB", "gRPC"],
+      "platforms": ["Linux", "Docker", "Kubernetes"]
     },
     "experienceYears": 6,
     "contacts": {
@@ -361,10 +361,10 @@
     "fullName": "Вадим Аркадьевич Комиссаров",
     "sex": "male",
     "skills": {
-      "Направление": ["Data Science"],
-      "Языки": ["Русский", "Английский", "Испанский"],
-      "Технологии": ["Python", "TensorFlow", "PySpark", "XGBoost", "MLflow"],
-      "Платформы": ["Linux", "AWS", "Databricks"]
+      "specialization": ["Data Science"],
+      "langs": ["Русский", "Английский", "Испанский"],
+      "techs": ["Python", "TensorFlow", "PySpark", "XGBoost", "MLflow"],
+      "platforms": ["Linux", "AWS", "Databricks"]
     },
     "experienceYears": 8,
     "contacts": {
@@ -378,10 +378,10 @@
     "fullName": "Григорий Фёдорович Беляев",
     "sex": "male",
     "skills": {
-      "Направление": ["DevOps"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Terraform", "Ansible", "Prometheus", "Grafana", "ArgoCD"],
-      "Платформы": ["AWS", "Kubernetes", "OpenStack"]
+      "specialization": ["DevOps"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Terraform", "Ansible", "Prometheus", "Grafana", "ArgoCD"],
+      "platforms": ["AWS", "Kubernetes", "OpenStack"]
     },
     "experienceYears": 10,
     "contacts": {
@@ -395,10 +395,10 @@
     "fullName": "Леонид Григорьевич Котов",
     "sex": "male",
     "skills": {
-      "Направление": ["Кибербезопасность"],
-      "Языки": ["Русский", "Английский", "Японский"],
-      "Технологии": ["SIEM", "IDS/IPS", "Burp Suite", "Metasploit", "OWASP ZAP"],
-      "Платформы": ["Kali Linux", "Windows Server", "AWS Security Hub"]
+      "specialization": ["Кибербезопасность"],
+      "langs": ["Русский", "Английский", "Японский"],
+      "techs": ["SIEM", "IDS/IPS", "Burp Suite", "Metasploit", "OWASP ZAP"],
+      "platforms": ["Kali Linux", "Windows Server", "AWS Security Hub"]
     },
     "experienceYears": 7,
     "contacts": {
@@ -412,10 +412,10 @@
     "fullName": "Василий Рудольфович Суханов",
     "sex": "male",
     "skills": {
-      "Направление": ["Cloud-инженерия"],
-      "Языки": ["Русский", "Английский", "Немецкий"],
-      "Технологии": ["AWS", "Terraform", "Kubernetes", "Serverless", "Prometheus"],
-      "Платформы": ["AWS", "GCP", "Azure"]
+      "specialization": ["Cloud-инженерия"],
+      "langs": ["Русский", "Английский", "Немецкий"],
+      "techs": ["AWS", "Terraform", "Kubernetes", "Serverless", "Prometheus"],
+      "platforms": ["AWS", "GCP", "Azure"]
     },
     "experienceYears": 12,
     "contacts": {
@@ -429,10 +429,10 @@
     "fullName": "Юрий Яковлевич Лаврентьев",
     "sex": "male",
     "skills": {
-      "Направление": ["Fullstack-разработка"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["TypeScript", "React", "Node.js", "NestJS", "GraphQL"],
-      "Платформы": ["AWS", "Docker", "Linux"]
+      "specialization": ["Fullstack-разработка"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["TypeScript", "React", "Node.js", "NestJS", "GraphQL"],
+      "platforms": ["AWS", "Docker", "Linux"]
     },
     "experienceYears": 9,
     "contacts": {
@@ -446,10 +446,10 @@
     "fullName": "Борис Ильич Терехов",
     "sex": "male",
     "skills": {
-      "Направление": ["Frontend-разработка"],
-      "Языки": ["Русский", "Английский", "Французский"],
-      "Технологии": ["JavaScript", "React", "Redux", "Webpack", "Jest"],
-      "Платформы": ["Web", "Mobile", "Desktop"]
+      "specialization": ["Frontend-разработка"],
+      "langs": ["Русский", "Английский", "Французский"],
+      "techs": ["JavaScript", "React", "Redux", "Webpack", "Jest"],
+      "platforms": ["Web", "Mobile", "Desktop"]
     },
     "experienceYears": 11,
     "contacts": {
@@ -463,10 +463,10 @@
     "fullName": "Олег Артёмович Щукин",
     "sex": "male",
     "skills": {
-      "Направление": ["DevOps"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Kubernetes", "Terraform", "Prometheus", "Grafana", "ArgoCD"],
-      "Платформы": ["AWS", "GCP", "On-premise"]
+      "specialization": ["DevOps"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Kubernetes", "Terraform", "Prometheus", "Grafana", "ArgoCD"],
+      "platforms": ["AWS", "GCP", "On-premise"]
     },
     "experienceYears": 14,
     "contacts": {
@@ -480,10 +480,10 @@
     "fullName": "Семён Георгиевич Медведев",
     "sex": "male",
     "skills": {
-      "Направление": ["Data Science"],
-      "Языки": ["Русский", "Английский", "Иврит"],
-      "Технологии": ["Python", "PyTorch", "TensorFlow", "Spark", "MLflow"],
-      "Платформы": ["AWS SageMaker", "Databricks", "Hadoop"]
+      "specialization": ["Data Science"],
+      "langs": ["Русский", "Английский", "Иврит"],
+      "techs": ["Python", "PyTorch", "TensorFlow", "Spark", "MLflow"],
+      "platforms": ["AWS SageMaker", "Databricks", "Hadoop"]
     },
     "experienceYears": 8,
     "contacts": {
@@ -497,10 +497,10 @@
     "fullName": "Фёдор Вячеславович Собольков",
     "sex": "male",
     "skills": {
-      "Направление": ["Backend-разработка"],
-      "Языки": ["Русский", "Английский", "Французский"],
-      "Технологии": ["Go", "Kafka", "PostgreSQL", "Redis", "gRPC"],
-      "Платформы": ["Linux", "Kubernetes", "AWS"]
+      "specialization": ["Backend-разработка"],
+      "langs": ["Русский", "Английский", "Французский"],
+      "techs": ["Go", "Kafka", "PostgreSQL", "Redis", "gRPC"],
+      "platforms": ["Linux", "Kubernetes", "AWS"]
     },
     "experienceYears": 13,
     "contacts": {
@@ -514,10 +514,10 @@
     "fullName": "Руслан Олегович Агафонов",
     "sex": "male",
     "skills": {
-      "Направление": ["Кибербезопасность"],
-      "Языки": ["Русский", "Английский", "Арабский"],
-      "Технологии": ["SIEM", "IDS/IPS", "Burp Suite", "Metasploit", "OWASP"],
-      "Платформы": ["Kali Linux", "AWS Security", "Azure Sentinel"]
+      "specialization": ["Кибербезопасность"],
+      "langs": ["Русский", "Английский", "Арабский"],
+      "techs": ["SIEM", "IDS/IPS", "Burp Suite", "Metasploit", "OWASP"],
+      "platforms": ["Kali Linux", "AWS Security", "Azure Sentinel"]
     },
     "experienceYears": 9,
     "contacts": {
@@ -531,10 +531,10 @@
     "fullName": "Виталий Артурович Зуев",
     "sex": "male",
     "skills": {
-      "Направление": ["QA / Тестирование"],
-      "Языки": ["Русский", "Английский", "Немецкий"],
-      "Технологии": ["Selenium", "Cypress", "JMeter", "Appium", "Allure"],
-      "Платформы": ["Web", "Mobile", "API"]
+      "specialization": ["QA / Тестирование"],
+      "langs": ["Русский", "Английский", "Немецкий"],
+      "techs": ["Selenium", "Cypress", "JMeter", "Appium", "Allure"],
+      "platforms": ["Web", "Mobile", "API"]
     },
     "experienceYears": 7,
     "contacts": {
@@ -548,10 +548,10 @@
     "fullName": "Игорь Игнатьевич Калинин",
     "sex": "male",
     "skills": {
-      "Направление": ["Cloud-инженерия"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["AWS", "Terraform", "Kubernetes", "Serverless", "Prometheus"],
-      "Платформы": ["AWS", "GCP", "Azure"]
+      "specialization": ["Cloud-инженерия"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["AWS", "Terraform", "Kubernetes", "Serverless", "Prometheus"],
+      "platforms": ["AWS", "GCP", "Azure"]
     },
     "experienceYears": 11,
     "contacts": {
@@ -565,10 +565,10 @@
     "fullName": "Анатолий Арсеньевич Трофимов",
     "sex": "male",
     "skills": {
-      "Направление": ["Мобильная разработка"],
-      "Языки": ["Русский", "Английский", "Японский"],
-      "Технологии": ["Kotlin", "Swift", "Flutter", "Firebase", "gRPC"],
-      "Платформы": ["Android", "iOS", "HarmonyOS"]
+      "specialization": ["Мобильная разработка"],
+      "langs": ["Русский", "Английский", "Японский"],
+      "techs": ["Kotlin", "Swift", "Flutter", "Firebase", "gRPC"],
+      "platforms": ["Android", "iOS", "HarmonyOS"]
     },
     "experienceYears": 15,
     "contacts": {
@@ -582,10 +582,10 @@
     "fullName": "Геннадий Валентинович Черкасов",
     "sex": "male",
     "skills": {
-      "Направление": ["UI/UX-дизайн"],
-      "Языки": ["Русский", "Английский", "Французский"],
-      "Технологии": ["Figma", "Sketch", "Adobe XD", "Photoshop", "Illustrator"],
-      "Платформы": ["Web", "Mobile", "Desktop"]
+      "specialization": ["UI/UX-дизайн"],
+      "langs": ["Русский", "Английский", "Французский"],
+      "techs": ["Figma", "Sketch", "Adobe XD", "Photoshop", "Illustrator"],
+      "platforms": ["Web", "Mobile", "Desktop"]
     },
     "experienceYears": 12,
     "contacts": {
@@ -599,10 +599,10 @@
     "fullName": "Степан Николаевич Потапов",
     "sex": "male",
     "skills": {
-      "Направление": ["Backend-разработка"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Java", "Spring Boot", "Kafka", "PostgreSQL", "Redis"],
-      "Платформы": ["Linux", "Docker", "Kubernetes"]
+      "specialization": ["Backend-разработка"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Java", "Spring Boot", "Kafka", "PostgreSQL", "Redis"],
+      "platforms": ["Linux", "Docker", "Kubernetes"]
     },
     "experienceYears": 7,
     "contacts": {
@@ -616,10 +616,10 @@
     "fullName": "Артур Степанович Галкин",
     "sex": "male",
     "skills": {
-      "Направление": ["Frontend-разработка"],
-      "Языки": ["Русский", "Английский", "Испанский"],
-      "Технологии": ["TypeScript", "React", "Redux", "Webpack", "Jest"],
-      "Платформы": ["Web", "Mobile"]
+      "specialization": ["Frontend-разработка"],
+      "langs": ["Русский", "Английский", "Испанский"],
+      "techs": ["TypeScript", "React", "Redux", "Webpack", "Jest"],
+      "platforms": ["Web", "Mobile"]
     },
     "experienceYears": 5,
     "contacts": {
@@ -633,10 +633,10 @@
     "fullName": "Даниил Данилович Макаров",
     "sex": "male",
     "skills": {
-      "Направление": ["Data Science"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Python", "PyTorch", "scikit-learn", "Pandas", "MLflow"],
-      "Платформы": ["Linux", "AWS SageMaker"]
+      "specialization": ["Data Science"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Python", "PyTorch", "scikit-learn", "Pandas", "MLflow"],
+      "platforms": ["Linux", "AWS SageMaker"]
     },
     "experienceYears": 6,
     "contacts": {
@@ -650,10 +650,10 @@
     "fullName": "Эдуард Сергеевич Львов",
     "sex": "male",
     "skills": {
-      "Направление": ["DevOps"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Kubernetes", "Terraform", "ArgoCD", "Prometheus", "Grafana"],
-      "Платформы": ["AWS", "GCP", "On-premise"]
+      "specialization": ["DevOps"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Kubernetes", "Terraform", "ArgoCD", "Prometheus", "Grafana"],
+      "platforms": ["AWS", "GCP", "On-premise"]
     },
     "experienceYears": 8,
     "contacts": {
@@ -667,10 +667,10 @@
     "fullName": "Роберт Русланович Дорофеев",
     "sex": "male",
     "skills": {
-      "Направление": ["Fullstack-разработка"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
-      "Платформы": ["Web", "Mobile", "Desktop"]
+      "specialization": ["Fullstack-разработка"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
+      "platforms": ["Web", "Mobile", "Desktop"]
     },
     "experienceYears": 7,
     "contacts": {
@@ -684,10 +684,10 @@
     "fullName": "Герман Валентинович Симонов",
     "sex": "male",
     "skills": {
-      "Направление": ["Кибербезопасность"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["SIEM", "IDS/IPS", "Burp Suite", "Metasploit", "OWASP ZAP"],
-      "Платформы": ["Kali Linux", "Windows Server"]
+      "specialization": ["Кибербезопасность"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["SIEM", "IDS/IPS", "Burp Suite", "Metasploit", "OWASP ZAP"],
+      "platforms": ["Kali Linux", "Windows Server"]
     },
     "experienceYears": 9,
     "contacts": {
@@ -701,10 +701,10 @@
     "fullName": "Матвей Данилович Громов",
     "sex": "male",
     "skills": {
-      "Направление": ["QA / Тестирование"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Selenium", "Cypress", "JMeter", "Postman", "Allure"],
-      "Платформы": ["Web", "Mobile", "API"]
+      "specialization": ["QA / Тестирование"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Selenium", "Cypress", "JMeter", "Postman", "Allure"],
+      "platforms": ["Web", "Mobile", "API"]
     },
     "experienceYears": 5,
     "contacts": {
@@ -718,10 +718,10 @@
     "fullName": "Захар Павлович Лапин",
     "sex": "male",
     "skills": {
-      "Направление": ["Cloud-инженерия"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["AWS", "Terraform", "Kubernetes", "Serverless", "Prometheus"],
-      "Платформы": ["AWS", "GCP"]
+      "specialization": ["Cloud-инженерия"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["AWS", "Terraform", "Kubernetes", "Serverless", "Prometheus"],
+      "platforms": ["AWS", "GCP"]
     },
     "experienceYears": 6,
     "contacts": {
@@ -735,10 +735,10 @@
     "fullName": "Марк Андреевич Филиппов",
     "sex": "male",
     "skills": {
-      "Направление": ["Мобильная разработка"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Kotlin", "Swift", "Flutter", "Firebase", "gRPC"],
-      "Платформы": ["Android", "iOS"]
+      "specialization": ["Мобильная разработка"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Kotlin", "Swift", "Flutter", "Firebase", "gRPC"],
+      "platforms": ["Android", "iOS"]
     },
     "experienceYears": 4,
     "contacts": {
@@ -752,10 +752,10 @@
     "fullName": "Лев Владимирович Шубин",
     "sex": "male",
     "skills": {
-      "Направление": ["Frontend-разработка"],
-      "Языки": ["Русский", "Английский", "Немецкий"],
-      "Технологии": ["JavaScript", "TypeScript", "React", "Redux", "Next.js", "GraphQL"],
-      "Платформы": ["Web", "Linux"]
+      "specialization": ["Frontend-разработка"],
+      "langs": ["Русский", "Английский", "Немецкий"],
+      "techs": ["JavaScript", "TypeScript", "React", "Redux", "Next.js", "GraphQL"],
+      "platforms": ["Web", "Linux"]
     },
     "experienceYears": 5,
     "contacts": {
@@ -769,27 +769,27 @@
     "fullName": "Пётр Алексеевич Королёв",
     "sex": "male",
     "skills": {
-      "Направление": ["Backend-разработка"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Java", "Spring Boot", "Kotlin", "PostgreSQL", "Kafka", "Docker", "Kubernetes"],
-      "Платформы": ["Linux", "Windows Server"]
+      "specialization": ["Backend-разработка"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Java", "Spring Boot", "Kotlin", "PostgreSQL", "Kafka", "Docker", "Kubernetes"],
+      "platforms": ["Linux", "Windows Server"]
     },
     "experienceYears": 6,
     "contacts": {
       "email": "p.korolev.backend@gmail.com",
       "phone": "+7 (987) 654-32-10"
     },
-    "bio": "Пётр — backend-разработчик с 6-летним опытом создания высоконагруженных распределённых систем. Начинал карьеру в банковском секторе, где разрабатывал системы обработки транзакций на Java EE. Затем перешёл в крупную e-commerce компанию, где занимался разработкой микросервисной архитектуры для платформы с более чем 1 млн ежедневных пользователей. Основные достижения: 1) Реализация системы кэширования, сократившая нагрузку на базу данных на 70%, 2) Оптимизация SQL-запросов и индексов в PostgreSQL, 3) Разработка системы асинхронной обработки событий на основе Kafka. Специализируется на: 1) Создании отказоустойчивых микросервисных архитектур, 2) Оптимизации производительности баз данных, 3) Реализации сложных бизнес-процессов. Имеет сертификацию по Kubernetes и опыт развёртывания приложений в облачных средах (AWS, GCP). Активно участвует в open-source проектах, связанных с экосистемой Spring."
+    "bio": "Пётр — backend-разработчик с 6-летним опытом создания высоконагруженных распределённых систем. Начинал карьеру в банковском секторе, где разрабатывал системы обработки транзакций на Java EE. Затем перешёл в крупную e-commerce компанию, где занимался разработкой микросервисной архитектуры для platforms с более чем 1 млн ежедневных пользователей. Основные достижения: 1) Реализация системы кэширования, сократившая нагрузку на базу данных на 70%, 2) Оптимизация SQL-запросов и индексов в PostgreSQL, 3) Разработка системы асинхронной обработки событий на основе Kafka. Специализируется на: 1) Создании отказоустойчивых микросервисных архитектур, 2) Оптимизации производительности баз данных, 3) Реализации сложных бизнес-процессов. Имеет сертификацию по Kubernetes и опыт развёртывания приложений в облачных средах (AWS, GCP). Активно участвует в open-source проектах, связанных с экосистемой Spring."
   },
   {
     "id": 47,
     "fullName": "Всеволод Борисович Жуков",
     "sex": "male",
     "skills": {
-      "Направление": ["DevOps"],
-      "Языки": ["Русский", "Английский", "Французский"],
-      "Технологии": ["Docker", "Kubernetes", "Terraform", "Ansible", "AWS", "GitLab CI/CD", "Prometheus", "Grafana"],
-      "Платформы": ["Linux", "Cloud"]
+      "specialization": ["DevOps"],
+      "langs": ["Русский", "Английский", "Французский"],
+      "techs": ["Docker", "Kubernetes", "Terraform", "Ansible", "AWS", "GitLab CI/CD", "Prometheus", "Grafana"],
+      "platforms": ["Linux", "Cloud"]
     },
     "experienceYears": 7,
     "contacts": {
@@ -803,10 +803,10 @@
     "fullName": "Денис Витальевич Ефимов",
     "sex": "male",
     "skills": {
-      "Направление": ["Data Science"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Python", "PyTorch", "TensorFlow", "Pandas", "NumPy", "Scikit-learn", "SQL", "Apache Spark"],
-      "Платформы": ["Linux", "Cloud"]
+      "specialization": ["Data Science"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Python", "PyTorch", "TensorFlow", "Pandas", "NumPy", "Scikit-learn", "SQL", "Apache Spark"],
+      "platforms": ["Linux", "Cloud"]
     },
     "experienceYears": 4,
     "contacts": {
@@ -820,10 +820,10 @@
     "fullName": "Георгий Олегович Давыдов",
     "sex": "male",
     "skills": {
-      "Направление": ["Кибербезопасность"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Metasploit", "Burp Suite", "Wireshark", "Nmap", "SIEM", "IDS/IPS", "OWASP", "Kali Linux"],
-      "Платформы": ["Linux", "Windows", "Network"]
+      "specialization": ["Кибербезопасность"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Metasploit", "Burp Suite", "Wireshark", "Nmap", "SIEM", "IDS/IPS", "OWASP", "Kali Linux"],
+      "platforms": ["Linux", "Windows", "Network"]
     },
     "experienceYears": 8,
     "contacts": {
@@ -837,27 +837,27 @@
     "fullName": "Александр Игоревич Комаров",
     "sex": "male",
     "skills": {
-      "Направление": ["Fullstack-разработка"],
-      "Языки": ["Русский", "Английский", "Испанский"],
-      "Технологии": ["JavaScript", "TypeScript", "React", "Node.js", "Express", "MongoDB", "PostgreSQL", "Docker"],
-      "Платформы": ["Web", "Linux", "Cloud"]
+      "specialization": ["Fullstack-разработка"],
+      "langs": ["Русский", "Английский", "Испанский"],
+      "techs": ["JavaScript", "TypeScript", "React", "Node.js", "Express", "MongoDB", "PostgreSQL", "Docker"],
+      "platforms": ["Web", "Linux", "Cloud"]
     },
     "experienceYears": 5,
     "contacts": {
       "email": "a.komarov.fullstack@yahoo.com",
       "phone": "+7 (917) 890-12-34"
     },
-    "bio": "Александр — fullstack-разработчик с 5-летним опытом создания комплексных веб-решений. Начинал карьеру как frontend-разработчик, затем освоил backend и стал работать над полным циклом разработки. Работал в продуктовых компаниях и аутсорсинге, создавая решения для международных клиентов. Основные достижения: 1) Разработка highload платформы для онлайн-образования с более чем 50 000 одновременных пользователей, 2) Создание системы real-time обновлений данных с использованием WebSockets, 3) Оптимизация производительности приложения, сократившая время ответа сервера на 60%. Специализируется на: 1) Создании универсальных JavaScript/TypeScript решений, 2) Разработке архитектуры масштабируемых приложений, 3) Интеграции различных сервисов и API. Владеет современными подходами к разработке, включая serverless архитектуры и micro-frontends. Имеет опыт менторства и проведения технических собеседований. Также ведёт технический блог о fullstack разработке с аудиторией более 10 000 подписчиков."
+    "bio": "Александр — fullstack-разработчик с 5-летним опытом создания комплексных веб-решений. Начинал карьеру как frontend-разработчик, затем освоил backend и стал работать над полным циклом разработки. Работал в продуктовых компаниях и аутсорсинге, создавая решения для международных клиентов. Основные достижения: 1) Разработка highload platforms для онлайн-образования с более чем 50 000 одновременных пользователей, 2) Создание системы real-time обновлений данных с использованием WebSockets, 3) Оптимизация производительности приложения, сократившая время ответа сервера на 60%. Специализируется на: 1) Создании универсальных JavaScript/TypeScript решений, 2) Разработке архитектуры масштабируемых приложений, 3) Интеграции различных сервисов и API. Владеет современными подходами к разработке, включая serverless архитектуры и micro-frontends. Имеет опыт менторства и проведения технических собеседований. Также ведёт технический блог о fullstack разработке с аудиторией более 10 000 подписчиков."
   },
   {
     "id": 100,
     "fullName": "Анна Сергеевна Волкова",
     "sex": "female",
     "skills": {
-      "Направление": ["Аналитика"],
-      "Языки": ["Русский", "Английский", "Французский"],
-      "Технологии": ["SQL", "Python", "Tableau", "Power BI", "Excel", "Google Analytics", "BigQuery"],
-      "Платформы": ["Windows", "MacOS", "Cloud"]
+      "specialization": ["Аналитика"],
+      "langs": ["Русский", "Английский", "Французский"],
+      "techs": ["SQL", "Python", "Tableau", "Power BI", "Excel", "Google Analytics", "BigQuery"],
+      "platforms": ["Windows", "MacOS", "Cloud"]
     },
     "experienceYears": 6,
     "contacts": {
@@ -871,10 +871,10 @@
     "fullName": "Елена Андреевна Соколова",
     "sex": "female",
     "skills": {
-      "Направление": ["Дизайн"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Adobe Photoshop", "Illustrator", "Figma", "Procreate", "Blender", "After Effects"],
-      "Платформы": ["Windows", "MacOS", "iPad"]
+      "specialization": ["Дизайн"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Adobe Photoshop", "Illustrator", "Figma", "Procreate", "Blender", "After Effects"],
+      "platforms": ["Windows", "MacOS", "iPad"]
     },
     "experienceYears": 7,
     "contacts": {
@@ -888,27 +888,27 @@
     "fullName": "Ольга Николаевна Козлова",
     "sex": "female",
     "skills": {
-      "Направление": ["UI/UX-дизайн"],
-      "Языки": ["Русский", "Английский", "Немецкий"],
-      "Технологии": ["Figma", "Sketch", "Adobe XD", "InVision", "Miro", "UserTesting", "Hotjar"],
-      "Платформы": ["Web", "Mobile", "Desktop"]
+      "specialization": ["UI/UX-дизайн"],
+      "langs": ["Русский", "Английский", "Немецкий"],
+      "techs": ["Figma", "Sketch", "Adobe XD", "InVision", "Miro", "UserTesting", "Hotjar"],
+      "platforms": ["Web", "Mobile", "Desktop"]
     },
     "experienceYears": 5,
     "contacts": {
       "email": "o.kozlova.uiux@mail.ru",
       "phone": "+7 (977) 345-67-89"
     },
-    "bio": "Ольга — UI/UX-дизайнер с 5-летним опытом создания удобных и эстетичных интерфейсов. Начинала карьеру в веб-студии, затем перешла в продуктовую компанию, где занималась комплексным redesign’ом платформы. Основные достижения: 1) Повышение конверсии главного экрана на 35% за счёт юзабилити-доработок, 2) Создание дизайн-системы, ускорившей работу команды в 2 раза, 3) Проведение 50+ пользовательских интервью для формирования CJM. Специализируется на: 1) Прототипировании сложных интерфейсов, 2) Анимации микровзаимодействий, 3) Доступности (accessibility). Работала над проектами в fintech, edtech и e-commerce. Участвует в хакатонах как UX-эксперт. Ведёт блог о трендах в дизайне интерфейсов."
+    "bio": "Ольга — UI/UX-дизайнер с 5-летним опытом создания удобных и эстетичных интерфейсов. Начинала карьеру в веб-студии, затем перешла в продуктовую компанию, где занималась комплексным redesign’ом platforms. Основные достижения: 1) Повышение конверсии главного экрана на 35% за счёт юзабилити-доработок, 2) Создание дизайн-системы, ускорившей работу команды в 2 раза, 3) Проведение 50+ пользовательских интервью для формирования CJM. Специализируется на: 1) Прототипировании сложных интерфейсов, 2) Анимации микровзаимодействий, 3) Доступности (accessibility). Работала над проектами в fintech, edtech и e-commerce. Участвует в хакатонах как UX-эксперт. Ведёт блог о трендах в дизайне интерфейсов."
   },
   {
     "id": 103,
     "fullName": "Наталья Олеговна Белова",
     "sex": "female",
     "skills": {
-      "Направление": ["Управление проектами (PM, Scrum, Agile)"],
-      "Языки": ["Русский", "Английский", "Испанский"],
-      "Технологии": ["Jira", "Confluence", "Trello", "Notion", "Slack", "MS Project", "ClickUp"],
-      "Платформы": ["Web", "Mobile", "Cloud"]
+      "specialization": ["Управление проектами (PM, Scrum, Agile)"],
+      "langs": ["Русский", "Английский", "Испанский"],
+      "techs": ["Jira", "Confluence", "Trello", "Notion", "Slack", "MS Project", "ClickUp"],
+      "platforms": ["Web", "Mobile", "Cloud"]
     },
     "experienceYears": 8,
     "contacts": {
@@ -922,10 +922,10 @@
     "fullName": "Ирина Викторовна Морозова",
     "sex": "female",
     "skills": {
-      "Направление": ["Контент и маркетинг"],
-      "Языки": ["Русский", "Английский", "Китайский"],
-      "Технологии": ["SEO", "Google Ads", "Meta Business", "LinkedIn Ads", "HubSpot", "Canva", "ChatGPT"],
-      "Платформы": ["Web", "Social Media", "CRM"]
+      "specialization": ["Контент и маркетинг"],
+      "langs": ["Русский", "Английский", "Китайский"],
+      "techs": ["SEO", "Google Ads", "Meta Business", "LinkedIn Ads", "HubSpot", "Canva", "ChatGPT"],
+      "platforms": ["Web", "Social Media", "CRM"]
     },
     "experienceYears": 4,
     "contacts": {
@@ -939,10 +939,10 @@
     "fullName": "Мария Денисовна Гусева",
     "sex": "female",
     "skills": {
-      "Направление": ["Аналитика"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Python", "R", "SQL", "Excel", "Tableau", "Power BI", "Google Analytics"],
-      "Платформы": ["Windows", "MacOS", "Cloud"]
+      "specialization": ["Аналитика"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Python", "R", "SQL", "Excel", "Tableau", "Power BI", "Google Analytics"],
+      "platforms": ["Windows", "MacOS", "Cloud"]
     },
     "experienceYears": 5,
     "contacts": {
@@ -956,10 +956,10 @@
     "fullName": "Светлана Игоревна Новикова",
     "sex": "female",
     "skills": {
-      "Направление": ["Дизайн"],
-      "Языки": ["Русский", "Английский", "Итальянский"],
-      "Технологии": ["Adobe Photoshop", "Illustrator", "InDesign", "Figma", "Procreate", "CorelDRAW"],
-      "Платформы": ["MacOS", "Windows", "iPad"]
+      "specialization": ["Дизайн"],
+      "langs": ["Русский", "Английский", "Итальянский"],
+      "techs": ["Adobe Photoshop", "Illustrator", "InDesign", "Figma", "Procreate", "CorelDRAW"],
+      "platforms": ["MacOS", "Windows", "iPad"]
     },
     "experienceYears": 6,
     "contacts": {
@@ -973,27 +973,27 @@
     "fullName": "Татьяна Петровна Крылова",
     "sex": "female",
     "skills": {
-      "Направление": ["UI/UX-дизайн"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Figma", "Adobe XD", "Sketch", "Zeplin", "ProtoPie", "UserPersona", "Hotjar"],
-      "Платформы": ["Web", "Mobile"]
+      "specialization": ["UI/UX-дизайн"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Figma", "Adobe XD", "Sketch", "Zeplin", "ProtoPie", "UserPersona", "Hotjar"],
+      "platforms": ["Web", "Mobile"]
     },
     "experienceYears": 4,
     "contacts": {
       "email": "t.krylova.ux@gmail.com",
       "phone": "+7 (916) 890-12-34"
     },
-    "bio": "Татьяна — UX/UI-дизайнер с 4-летним опытом в fintech и edtech. Начинала как стажёр в стартапе, затем выросла до ведущего дизайнера. Основные достижения: 1) Проведение полного UX-аудита мобильного приложения, 2) Создание дизайн-системы для SaaS-платформы, 3) Увеличение NPS на 15 пунктов за счёт улучшения юзабилити. Специализируется на: 1) User research, 2) Прототипировании, 3) Дизайн-мышлении. Провела 100+ юзабилити-тестов. Участвует в конференциях по дизайну (как спикер). Прошла курсы по психологии восприятия. Ведёт блог о когнитивных искажениях в интерфейсах."
+    "bio": "Татьяна — UX/UI-дизайнер с 4-летним опытом в fintech и edtech. Начинала как стажёр в стартапе, затем выросла до ведущего дизайнера. Основные достижения: 1) Проведение полного UX-аудита мобильного приложения, 2) Создание дизайн-системы для SaaS-platforms, 3) Увеличение NPS на 15 пунктов за счёт улучшения юзабилити. Специализируется на: 1) User research, 2) Прототипировании, 3) Дизайн-мышлении. Провела 100+ юзабилити-тестов. Участвует в конференциях по дизайну (как спикер). Прошла курсы по психологии восприятия. Ведёт блог о когнитивных искажениях в интерфейсах."
   },
   {
     "id": 108,
     "fullName": "Юлия Вадимовна Зимина",
     "sex": "female",
     "skills": {
-      "Направление": ["Управление проектами (PM, Scrum, Agile)"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Jira", "Confluence", "Trello", "Asana", "Miro", "Slack", "MS Teams"],
-      "Платформы": ["Web", "Mobile", "Enterprise"]
+      "specialization": ["Управление проектами (PM, Scrum, Agile)"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Jira", "Confluence", "Trello", "Asana", "Miro", "Slack", "MS Teams"],
+      "platforms": ["Web", "Mobile", "Enterprise"]
     },
     "experienceYears": 7,
     "contacts": {
@@ -1007,10 +1007,10 @@
     "fullName": "Екатерина Анатольевна Баранова",
     "sex": "female",
     "skills": {
-      "Направление": ["Контент и маркетинг"],
-      "Языки": ["Русский", "Английский", "Французский"],
-      "Технологии": ["SEO", "Google Analytics", "Ahrefs", "Semrush", "ChatGPT", "Canva", "WordPress"],
-      "Платформы": ["Web", "Social Media", "CMS"]
+      "specialization": ["Контент и маркетинг"],
+      "langs": ["Русский", "Английский", "Французский"],
+      "techs": ["SEO", "Google Analytics", "Ahrefs", "Semrush", "ChatGPT", "Canva", "WordPress"],
+      "platforms": ["Web", "Social Media", "CMS"]
     },
     "experienceYears": 5,
     "contacts": {
@@ -1024,27 +1024,27 @@
     "fullName": "Александра Станиславовна Широкова",
     "sex": "female",
     "skills": {
-      "Направление": ["Fullstack-разработка"],
-      "Языки": ["Русский", "Английский", "Польский"],
-      "Технологии": ["JavaScript", "TypeScript", "React", "Node.js", "NestJS", "PostgreSQL", "GraphQL", "Docker"],
-      "Платформы": ["Web", "Linux", "Cloud"]
+      "specialization": ["Fullstack-разработка"],
+      "langs": ["Русский", "Английский", "Польский"],
+      "techs": ["JavaScript", "TypeScript", "React", "Node.js", "NestJS", "PostgreSQL", "GraphQL", "Docker"],
+      "platforms": ["Web", "Linux", "Cloud"]
     },
     "experienceYears": 4,
     "contacts": {
       "email": "a.shirokova.dev@gmail.com",
       "phone": "+7 (925) 112-33-44"
     },
-    "bio": "Александра — fullstack-разработчик с 4-летним опытом. Начинала с фронтенда, затем углубилась в бэкенд. Основные достижения: 1) Разработка платформы для онлайн-торговли с обработкой 1000+ запросов/сек, 2) Оптимизация API, сократившая время ответа на 40%, 3) Внедрение микросервисной архитектуры. Специализируется на: 1) SSR-приложениях (Next.js), 2) Безопасности API, 3) Рефакторинге legacy-кода. Участвует в open-source проектах. Ведёт технический блог о performance optimization."
+    "bio": "Александра — fullstack-разработчик с 4-летним опытом. Начинала с фронтенда, затем углубилась в бэкенд. Основные достижения: 1) Разработка platforms для онлайн-торговли с обработкой 1000+ запросов/сек, 2) Оптимизация API, сократившая время ответа на 40%, 3) Внедрение микросервисной архитектуры. Специализируется на: 1) SSR-приложениях (Next.js), 2) Безопасности API, 3) Рефакторинге legacy-кода. Участвует в open-source проектах. Ведёт технический блог о performance optimization."
   },
   {
     "id": 111,
     "fullName": "Людмила Геннадьевна Орлова",
     "sex": "female",
     "skills": {
-      "Направление": ["Аналитика"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Python", "SQL", "Apache Spark", "Tableau", "A/B тестирование", "Machine Learning basics"],
-      "Платформы": ["Linux", "Cloud", "Big Data"]
+      "specialization": ["Аналитика"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Python", "SQL", "Apache Spark", "Tableau", "A/B тестирование", "Machine Learning basics"],
+      "platforms": ["Linux", "Cloud", "Big Data"]
     },
     "experienceYears": 5,
     "contacts": {
@@ -1058,10 +1058,10 @@
     "fullName": "Валентина Александровна Фролова",
     "sex": "female",
     "skills": {
-      "Направление": ["UI/UX-дизайн"],
-      "Языки": ["Русский", "Английский", "Китайский"],
-      "Технологии": ["Figma", "Adobe XD", "Proto.io", "Hotjar", "Optimal Workshop", "Framer"],
-      "Платформы": ["Mobile", "Web", "AR/VR"]
+      "specialization": ["UI/UX-дизайн"],
+      "langs": ["Русский", "Английский", "Китайский"],
+      "techs": ["Figma", "Adobe XD", "Proto.io", "Hotjar", "Optimal Workshop", "Framer"],
+      "platforms": ["Mobile", "Web", "AR/VR"]
     },
     "experienceYears": 3,
     "contacts": {
@@ -1075,10 +1075,10 @@
     "fullName": "Галина Борисовна Савельева",
     "sex": "female",
     "skills": {
-      "Направление": ["Управление проектами (PM, Scrum, Agile)"],
-      "Языки": ["Русский", "Английский", "Немецкий"],
-      "Технологии": ["Jira", "Confluence", "ClickUp", "Miro", "Toggl Track", "Slack", "Notion"],
-      "Платформы": ["Enterprise", "Startups"]
+      "specialization": ["Управление проектами (PM, Scrum, Agile)"],
+      "langs": ["Русский", "Английский", "Немецкий"],
+      "techs": ["Jira", "Confluence", "ClickUp", "Miro", "Toggl Track", "Slack", "Notion"],
+      "platforms": ["Enterprise", "Startups"]
     },
     "experienceYears": 9,
     "contacts": {
@@ -1092,10 +1092,10 @@
     "fullName": "Вероника Леонидовна Ермакова",
     "sex": "female",
     "skills": {
-      "Направление": ["Контент и маркетинг"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["SEO", "Google Analytics", "SEMrush", "ChatGPT", "Midjourney", "HubSpot", "LinkedIn Ads"],
-      "Платформы": ["Social Media", "CMS", "Email Marketing"]
+      "specialization": ["Контент и маркетинг"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["SEO", "Google Analytics", "SEMrush", "ChatGPT", "Midjourney", "HubSpot", "LinkedIn Ads"],
+      "platforms": ["Social Media", "CMS", "Email Marketing"]
     },
     "experienceYears": 6,
     "contacts": {
@@ -1109,10 +1109,10 @@
     "fullName": "Дарья Артёмовна Кудрявцева",
     "sex": "female",
     "skills": {
-      "Направление": ["Дизайн"],
-      "Языки": ["Русский", "Французский"],
-      "Технологии": ["Adobe Photoshop", "Illustrator", "After Effects", "Cinema 4D", "Substance Painter", "Figma"],
-      "Платформы": ["3D Modeling", "Motion Design", "Branding"]
+      "specialization": ["Дизайн"],
+      "langs": ["Русский", "Французский"],
+      "techs": ["Adobe Photoshop", "Illustrator", "After Effects", "Cinema 4D", "Substance Painter", "Figma"],
+      "platforms": ["3D Modeling", "Motion Design", "Branding"]
     },
     "experienceYears": 7,
     "contacts": {
@@ -1126,10 +1126,10 @@
     "fullName": "Алина Романовна Маслова",
     "sex": "female",
     "skills": {
-      "Направление": ["Frontend-разработка"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["React", "Vue.js", "TypeScript", "Webpack", "Jest", "Three.js", "GSAP"],
-      "Платформы": ["Web", "Mobile", "PWA"]
+      "specialization": ["Frontend-разработка"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["React", "Vue.js", "TypeScript", "Webpack", "Jest", "Three.js", "GSAP"],
+      "platforms": ["Web", "Mobile", "PWA"]
     },
     "experienceYears": 3,
     "contacts": {
@@ -1143,10 +1143,10 @@
     "fullName": "Ксения Валерьевна Тихонова",
     "sex": "female",
     "skills": {
-      "Направление": ["Аналитика"],
-      "Языки": ["Русский", "Английский", "Испанский"],
-      "Технологии": ["SQL", "Python", "Power BI", "Google Data Studio", "Airflow", "Excel", "BigQuery"],
-      "Платформы": ["Cloud", "ERP", "CRM"]
+      "specialization": ["Аналитика"],
+      "langs": ["Русский", "Английский", "Испанский"],
+      "techs": ["SQL", "Python", "Power BI", "Google Data Studio", "Airflow", "Excel", "BigQuery"],
+      "platforms": ["Cloud", "ERP", "CRM"]
     },
     "experienceYears": 4,
     "contacts": {
@@ -1160,10 +1160,10 @@
     "fullName": "Полина Кирилловна Кузнецова",
     "sex": "female",
     "skills": {
-      "Направление": ["Контент и маркетинг"],
-      "Языки": ["Русский", "Английский", "Корейский"],
-      "Технологии": ["SMM", "TikTok Ads", "Instagram Reels", "Canva", "CapCut", "Google Trends", "Brand Analytics"],
-      "Платформы": ["Social Media", "Short Video", "Influencer Marketing"]
+      "specialization": ["Контент и маркетинг"],
+      "langs": ["Русский", "Английский", "Корейский"],
+      "techs": ["SMM", "TikTok Ads", "Instagram Reels", "Canva", "CapCut", "Google Trends", "Brand Analytics"],
+      "platforms": ["Social Media", "Short Video", "Influencer Marketing"]
     },
     "experienceYears": 2,
     "contacts": {
@@ -1177,10 +1177,10 @@
     "fullName": "Алёна Дмитриевна Блинова",
     "sex": "female",
     "skills": {
-      "Направление": ["UI/UX-дизайн"],
-      "Языки": ["Русский", "Английский", "Французский"],
-      "Технологии": ["Figma", "Adobe XD", "Sketch", "InVision", "Photoshop", "User Personas", "User Flows"],
-      "Платформы": ["Web", "Mobile", "SaaS"]
+      "specialization": ["UI/UX-дизайн"],
+      "langs": ["Русский", "Английский", "Французский"],
+      "techs": ["Figma", "Adobe XD", "Sketch", "InVision", "Photoshop", "User Personas", "User Flows"],
+      "platforms": ["Web", "Mobile", "SaaS"]
     },
     "experienceYears": 3,
     "contacts": {
@@ -1194,10 +1194,10 @@
     "fullName": "Любовь Семёновна Шестакова",
     "sex": "female",
     "skills": {
-      "Направление": ["Аналитика"],
-      "Языки": ["Русский", "Английский", "Немецкий"],
-      "Технологии": ["SQL", "Python", "Tableau", "Power BI", "Google Analytics", "A/B тестирование", "Machine Learning basics"],
-      "Платформы": ["E-commerce", "FinTech", "Big Data"]
+      "specialization": ["Аналитика"],
+      "langs": ["Русский", "Английский", "Немецкий"],
+      "techs": ["SQL", "Python", "Tableau", "Power BI", "Google Analytics", "A/B тестирование", "Machine Learning basics"],
+      "platforms": ["E-commerce", "FinTech", "Big Data"]
     },
     "experienceYears": 5,
     "contacts": {
@@ -1211,10 +1211,10 @@
     "fullName": "Диана Аркадьевна Комиссарова",
     "sex": "female",
     "skills": {
-      "Направление": ["Дизайн"],
-      "Языки": ["Русский", "Испанский"],
-      "Технологии": ["Illustrator", "Photoshop", "After Effects", "Blender", "Procreate", "Typography", "Color Theory"],
-      "Платформы": ["Branding", "Motion Design", "Packaging"]
+      "specialization": ["Дизайн"],
+      "langs": ["Русский", "Испанский"],
+      "techs": ["Illustrator", "Photoshop", "After Effects", "Blender", "Procreate", "Typography", "Color Theory"],
+      "platforms": ["Branding", "Motion Design", "Packaging"]
     },
     "experienceYears": 4,
     "contacts": {
@@ -1228,10 +1228,10 @@
     "fullName": "Маргарита Фёдоровна Беляева",
     "sex": "female",
     "skills": {
-      "Направление": ["Управление проектами (PM, Scrum, Agile)"],
-      "Языки": ["Русский", "Английский"],
-      "Технологии": ["Jira", "Confluence", "Trello", "Notion", "Scrum", "Kanban", "Risk Management"],
-      "Платформы": ["IT", "Digital Transformation", "Startups"]
+      "specialization": ["Управление проектами (PM, Scrum, Agile)"],
+      "langs": ["Русский", "Английский"],
+      "techs": ["Jira", "Confluence", "Trello", "Notion", "Scrum", "Kanban", "Risk Management"],
+      "platforms": ["IT", "Digital Transformation", "Startups"]
     },
     "experienceYears": 6,
     "contacts": {
@@ -1245,10 +1245,10 @@
     "fullName": "Элина Григорьевна Котова",
     "sex": "female",
     "skills": {
-      "Направление": ["Контент и маркетинг"],
-      "Языки": ["Русский", "Китайский"],
-      "Технологии": ["SEO", "Google Ads", "Email Marketing", "Content Strategy", "Copywriting", "Marketing Automation", "CRM"],
-      "Платформы": ["B2B", "EdTech", "Marketplaces"]
+      "specialization": ["Контент и маркетинг"],
+      "langs": ["Русский", "Китайский"],
+      "techs": ["SEO", "Google Ads", "Email Marketing", "Content Strategy", "Copywriting", "Marketing Automation", "CRM"],
+      "platforms": ["B2B", "EdTech", "Marketplaces"]
     },
     "experienceYears": 4,
     "contacts": {
@@ -1262,10 +1262,10 @@
     "fullName": "Виктория Рудольфовна Суханова",
     "sex": "female",
     "skills": {
-      "Направление": ["UI/UX-дизайн"],
-      "Языки": ["Русский", "Английский", "Японский"],
-      "Технологии": ["Figma", "ProtoPie", "UX Research", "Design Thinking", "Accessibility", "Microinteractions", "Design Systems"],
-      "Платформы": ["Mobile Apps", "Web Services", "IoT"]
+      "specialization": ["UI/UX-дизайн"],
+      "langs": ["Русский", "Английский", "Японский"],
+      "techs": ["Figma", "ProtoPie", "UX Research", "Design Thinking", "Accessibility", "Microinteractions", "Design Systems"],
+      "platforms": ["Mobile Apps", "Web Services", "IoT"]
     },
     "experienceYears": 5,
     "contacts": {

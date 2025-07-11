@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
-import { Employee } from './Employee';
+import { Stack } from '@mui/material';
+import { EmployeeCard } from './EmployeeCard';
 
 
 export function EmployeePagination({ page = 1, limit = 10 }) {
-  const [employee, setEmployee] = useState([]);
+  const [employees, setEmployees] = useState([]);
   
   useEffect(() => {
     async function fetchEmployee() {
@@ -14,16 +15,18 @@ export function EmployeePagination({ page = 1, limit = 10 }) {
 
       const result = await response.json();
       console.log(result.fullName);
-      setEmployee(result);
+      setEmployees(result);
     }
     fetchEmployee();
   }, [page, limit]);
 
+  const employeesList = employees.length > 0
+    ? employees.map(emp => <EmployeeCard key={emp.id} employee={emp} />)
+    : 'Загружается информация...';
+
   return (
-    <div>{
-      employee.length > 0
-        ? employee.map(emp => <Employee key={emp.id} employee={emp} />)
-        : 'Загружается информация...'}
-    </div>
+    <Stack spacing={3} alignItems='center'>
+      {employeesList}
+    </Stack>
   )
 }

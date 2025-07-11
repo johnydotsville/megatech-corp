@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
-const { loadTeamData } = require('./utils/dataLoader');
+const path = require('path');
+const loadTeamData = require('./utils/loadTeamData');
 const TeamService = require('./services/TeamService');
 const TeamController = require('./controllers/TeamController');
 const teamRouter = require('./routers/TeamRouter');
@@ -13,6 +14,11 @@ app.use(express.json()); // Парсинг JSON в теле запроса
 const team = loadTeamData();
 const teamService = new TeamService(team);
 const teamController = new TeamController(teamService);
+
+
+const empPhotoPath = path.join(__dirname, 'public', 'employees');
+app.use('/employees/photos', express.static(empPhotoPath));
+// http://localhost:3007/employees/photos/m001.jpeg
 
 
 app.use((request, response, next) => {
