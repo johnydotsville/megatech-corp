@@ -1,7 +1,6 @@
 import { useParams } from 'react-router-dom';
-import { EmployeeCard } from './EmployeeCard';
 import { useEmployee } from '@src/hooks/useEmployee';
-import { Box } from '@mui/material';
+import { Stack, Box } from '@mui/material';
 
 
 export function EmployeePage() {
@@ -18,7 +17,24 @@ export function EmployeePage() {
     return <Box>Не удалось загрузить информацию о сотруднике. Попробуйте позже.</Box>
   }
 
+  const photoUrl = `http://localhost:3007${employee.photo}`;
+
   return (
-    <EmployeeCard employee={employee} />
+    <Stack direction='row' spacing={3}>
+      <img src={photoUrl} width={394}/>
+      <Stack spacing={3}>
+        <Box>{ employee.fullName }</Box>
+        <Stack direction='row' spacing={2}>
+          <Box>{ employee.contacts.phone }</Box>
+          <Box>{ employee.contacts.email }</Box>
+        </Stack>
+        <Box>Опыт: { employee.experienceYears } лет</Box>
+        <Box>Специализация: { employee.skills.specialization }</Box>
+        <Box>Владеет языками: { employee.skills.langs.join(', ') }</Box>
+        <Box>Платформы: { employee.skills.platforms.join(', ') }</Box>
+        <Box>Технологии: { employee.skills.techs.join(', ') }</Box>
+        <Box>{ employee.bio }</Box>
+      </Stack>
+    </Stack>
   )
 }
