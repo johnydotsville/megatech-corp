@@ -1,8 +1,12 @@
 import { Stack, Box, Button } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 
 export function EmployeeCard({ employee }) {
   const photoUrl = `http://localhost:3007${employee.photo}`;
+  const navigate = useNavigate();
+
+  const gotoEmployeePage = (id) => navigate(`/team/${id}`);
 
   return (
     <Stack direction='row' spacing={3} border={1} padding={1}>
@@ -14,7 +18,9 @@ export function EmployeeCard({ employee }) {
           <Box>{employee.contacts.email}</Box>
         </Stack>
         <Box>Специализация: {employee.skills.specialization}</Box>
-        <Stack direction='row' justifyContent='right'><Button>Подробнее</Button></Stack>
+        <Stack direction='row' justifyContent='right'>
+          <Button onClick={() => gotoEmployeePage(employee.id)}>Подробнее</Button>
+        </Stack>
       </Stack>
     </Stack>
   )

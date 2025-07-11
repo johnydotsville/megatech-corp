@@ -8,10 +8,9 @@ export function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/team/:id' element={<EmployeePage />} />
         <Route path='/team' element={<TeamPagination />} />
+        <Route path='/team/:id' element={<EmployeePage />} />
       </Routes>
     </BrowserRouter>
-    
   )
 }
