@@ -1,0 +1,1 @@
+export const team = 'http://localhost:3007/team';

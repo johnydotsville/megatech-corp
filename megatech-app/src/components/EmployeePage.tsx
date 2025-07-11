@@ -1,26 +1,21 @@
-import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { EmployeeCard } from './EmployeeCard';
+import { useEmployee } from '@src/hooks/useEmployee';
+import { Box } from '@mui/material';
 
 
 export function EmployeePage() {
-  const [employee, setEmployee] = useState();
   const params = useParams();
+  const id = params.id;
   
-  useEffect(() => {
-    async function fetchEmployee() {
-      const url = new URL(`http://localhost:3007/team/${params.id}`);
-      const response = await fetch(url);
+  const { employee, employeeLoading, employeeError } = useEmployee(id);
 
-      const result = await response.json();
-      console.log(result.fullName);
-      setEmployee(result);
-    }
-    fetchEmployee();
-  }, []);
+  if (employeeLoading) {
+    return <Box>Загружается информация о сотруднике...</Box>
+  }
 
-  if (!employee) {
-    return <div>Загружается информация о сотруднике...</div>
+  if (employeeError) {
+    return <Box>Не удалось загрузить информацию о сотруднике. Попробуйте позже.</Box>
   }
 
   return (
