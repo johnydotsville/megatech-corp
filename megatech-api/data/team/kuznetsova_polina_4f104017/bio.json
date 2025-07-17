@@ -1,0 +1,16 @@
+{
+  "fullName": "Полина Кирилловна Кузнецова",
+  "sex": "female",
+  "skills": {
+    "specialization": ["Контент и маркетинг"],
+    "langs": ["Русский", "Английский", "Корейский"],
+    "techs": ["SMM", "TikTok Ads", "Instagram Reels", "Canva", "CapCut", "Google Trends", "Brand Analytics"],
+    "platforms": ["Social Media", "Short Video", "Influencer Marketing"]
+  },
+  "experienceYears": 2,
+  "contacts": {
+    "email": "p.kuznetsova.smm@yandex.ru",
+    "phone": "+7 (925) 990-01-12"
+  },
+  "bio": "Полина — SMM-специалист с экспертизой в viral-маркетинге. Основные достижения: 1) Рост аккаунта бренда с 0 до 250K подписчиков за 6 месяцев, 2) Челендж с 5M+ просмотров, 3) Коллаборации с 50+ микроинфлюенсерами. Специализируется на: 1) Трендвотчинге, 2) UGC-стратегиях, 3) Аналитике соцсетей. Владеет монтажом видео и базовым дизайном. Ведёт блог о трендах в Asian digital-culture."
+}

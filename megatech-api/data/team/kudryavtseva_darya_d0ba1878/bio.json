@@ -1,0 +1,16 @@
+{
+  "fullName": "Дарья Артёмовна Кудрявцева",
+  "sex": "female",
+  "skills": {
+    "specialization": ["Дизайн"],
+    "langs": ["Русский", "Французский"],
+    "techs": ["Adobe Photoshop", "Illustrator", "After Effects", "Cinema 4D", "Substance Painter", "Figma"],
+    "platforms": ["3D Modeling", "Motion Design", "Branding"]
+  },
+  "experienceYears": 7,
+  "contacts": {
+    "email": "d.kudryavtseva.art@yahoo.com",
+    "phone": "+7 (977) 667-78-89"
+  },
+  "bio": "Дарья — арт-директор с экспертизой в 3D и моушн-дизайне. Работала над рекламой для Coca-Cola, BMW и Netflix. Основные достижения: 1) Создание анимированного бренд-персонажа для стриминга, 2) Дизайн упаковки с дополненной реальностью, 3) Оформление выставки в Лувре. Специализируется на: 1) 3D-визуализации, 2) Типографике, 3) Арт-дирекшене. Преподаёт в Британке, курирует фестиваль цифрового искусства."
+}

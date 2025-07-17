@@ -1,0 +1,16 @@
+{
+  "fullName": "Роберт Русланович Дорофеев",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Fullstack-разработка"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
+    "platforms": ["Web", "Mobile", "Desktop"]
+  },
+  "experienceYears": 7,
+  "contacts": {
+    "email": "r.dorofeev.fullstack@gmail.com",
+    "phone": "+7 (919) 567-89-01"
+  },
+  "bio": "Роберт — fullstack разработчик с опытом создания комплексных веб-приложений. В Avito разрабатывал платформу для внутренних сервисов. В Тинькофф: 1) Создал систему real-time уведомлений, 2) Оптимизировал производительность (уменьшил время загрузки с 3 до 0.8 секунд), 3) Разработал reusable UI-компоненты. Специализация: 1) SSR/CSR hybrid, 2) WebSockets, 3) Micro-frontends. Реализовал: 1) Авторизацию через JWT, 2) Систему кеширования, 3) Автоматическое тестирование с 75% покрытием."
+}

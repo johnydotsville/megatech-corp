@@ -1,0 +1,16 @@
+{
+  "fullName": "Виталий Артурович Зуев",
+  "sex": "male",
+  "skills": {
+    "specialization": ["QA / Тестирование"],
+    "langs": ["Русский", "Английский", "Немецкий"],
+    "techs": ["Selenium", "Cypress", "JMeter", "Appium", "Allure"],
+    "platforms": ["Web", "Mobile", "API"]
+  },
+  "experienceYears": 7,
+  "contacts": {
+    "email": "v.zuev.qa@gmail.com",
+    "phone": "+7 (918) 234-56-78"
+  },
+  "bio": "Виталий — lead QA automation engineer. В Яндексе создал фреймворк для end-to-end тестирования 100+ микросервисов. В Ozon: 1) Внедрил performance testing в CI/CD, 2) Разработал систему визуального регрессионного тестирования, 3) Оптимизировал тестовые пайплайны (ускорил в 3x). Специализация: 1) Test automation, 2) Load testing, 3) Quality gates."
+}

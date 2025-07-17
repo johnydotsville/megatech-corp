@@ -1,0 +1,16 @@
+{
+  "fullName": "Олег Артёмович Щукин",
+  "sex": "male",
+  "skills": {
+    "specialization": ["DevOps"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["Kubernetes", "Terraform", "Prometheus", "Grafana", "ArgoCD"],
+    "platforms": ["AWS", "GCP", "On-premise"]
+  },
+  "experienceYears": 14,
+  "contacts": {
+    "email": "o.shchukin.devops@gmail.com",
+    "phone": "+7 (917) 890-12-34"
+  },
+  "bio": "Олег — principal DevOps engineer с опытом построения надежной инфраструктуры. В Ростелекоме создал платформу для развертывания облачных сервисов. В Ozon: 1) Внедрил GitOps для 1000+ микросервисов, 2) Построил систему мониторинга на 5000+ метрик, 3) Оптимизировал затраты на облако на 35%. Специализация: 1) High availability (99.99% uptime), 2) Security hardening, 3) Performance tuning. Разработал: 1) Автоматическую систему масштабирования, 2) Disaster recovery план для критических сервисов, 3) Internal developer platform. Имеет сертификации CKA, CKAD и AWS Professional."
+}

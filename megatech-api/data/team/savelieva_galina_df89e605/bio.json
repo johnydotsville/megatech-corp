@@ -1,0 +1,16 @@
+{
+  "fullName": "Галина Борисовна Савельева",
+  "sex": "female",
+  "skills": {
+    "specialization": ["Управление проектами (PM, Scrum, Agile)"],
+    "langs": ["Русский", "Английский", "Немецкий"],
+    "techs": ["Jira", "Confluence", "ClickUp", "Miro", "Toggl Track", "Slack", "Notion"],
+    "platforms": ["Enterprise", "Startups"]
+  },
+  "experienceYears": 9,
+  "contacts": {
+    "email": "g.savelieva.pm@gmail.com",
+    "phone": "+7 (926) 445-56-67"
+  },
+  "bio": "Галина — senior PM с опытом в госпроектах и финтехе. Основные достижения: 1) Управление бюджетом €2M+, 2) Запуск мобильного банка с 500K+ пользователей за год, 3) Agile-трансформация в 3 компаниях. Специализируется на: 1) Risk management, 2) Удалённых командах, 3) SAFe. Сертификаты: PMP, SAFe 5. Организует менторские программы для junior PM. Пишет книгу о гибридных методологиях."
+}

@@ -1,0 +1,16 @@
+{
+  "fullName": "Анатолий Арсеньевич Трофимов",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Мобильная разработка"],
+    "langs": ["Русский", "Английский", "Японский"],
+    "techs": ["Kotlin", "Swift", "Flutter", "Firebase", "gRPC"],
+    "platforms": ["Android", "iOS", "HarmonyOS"]
+  },
+  "experienceYears": 15,
+  "contacts": {
+    "email": "a.trofimov.mobile@gmail.com",
+    "phone": "+7 (918) 456-78-90"
+  },
+  "bio": "Анатолий — lead mobile developer. В VK разрабатывал приложения для 10M+ пользователей. В Яндекс.Такси: 1) Оптимизировал производительность (уменьшил crashes на 70%), 2) Создал кросс-платформенные компоненты, 3) Внедрил автоматическое тестирование."
+}

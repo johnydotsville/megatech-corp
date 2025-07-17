@@ -1,0 +1,16 @@
+{
+  "fullName": "Роман Игоревич Новиков",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Cloud-инженерия"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["AWS", "Terraform", "Serverless", "Kubernetes"],
+    "platforms": ["Linux", "Windows Server"]
+  },
+  "experienceYears": 7,
+  "contacts": {
+    "email": "r.novikov.cloud@gmail.com",
+    "phone": "+7 (915) 789-01-23"
+  },
+  "bio": "Роман — cloud архитектор с 7-летним опытом работы с облачными технологиями. Начинал карьеру в Mail.ru Group, где занимался миграцией сервисов в private cloud. Затем работал в AWS Professional Services, помогая клиентам переносить инфраструктуру в облако. В настоящее время работает в Spotify, где проектирует глобальную облачную инфраструктуру для стриминга музыки. Специализируется на multi-cloud стратегиях (AWS, GCP, Azure), serverless архитектуре и cost optimization. Имеет все top AWS сертификации, включая Solutions Architect Professional и DevOps Engineer Professional. Разработал систему автоматического управления ресурсами, которая сэкономила компании $2M в год. Руководил миграцией монолитного приложения на микросервисы в облаке, что повысило отказоустойчивость и масштабируемость. Регулярно выступает на облачных конференциях, ведет подкаст про cloud techs. Автор нескольких open-source инструментов для работы с AWS."
+}

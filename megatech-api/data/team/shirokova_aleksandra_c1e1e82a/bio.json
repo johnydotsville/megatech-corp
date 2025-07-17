@@ -1,0 +1,16 @@
+{
+  "fullName": "Александра Станиславовна Широкова",
+  "sex": "female",
+  "skills": {
+    "specialization": ["Fullstack-разработка"],
+    "langs": ["Русский", "Английский", "Польский"],
+    "techs": ["JavaScript", "TypeScript", "React", "Node.js", "NestJS", "PostgreSQL", "GraphQL", "Docker"],
+    "platforms": ["Web", "Linux", "Cloud"]
+  },
+  "experienceYears": 4,
+  "contacts": {
+    "email": "a.shirokova.dev@gmail.com",
+    "phone": "+7 (925) 112-33-44"
+  },
+  "bio": "Александра — fullstack-разработчик с 4-летним опытом. Начинала с фронтенда, затем углубилась в бэкенд. Основные достижения: 1) Разработка platforms для онлайн-торговли с обработкой 1000+ запросов/сек, 2) Оптимизация API, сократившая время ответа на 40%, 3) Внедрение микросервисной архитектуры. Специализируется на: 1) SSR-приложениях (Next.js), 2) Безопасности API, 3) Рефакторинге legacy-кода. Участвует в open-source проектах. Ведёт технический блог о performance optimization."
+}

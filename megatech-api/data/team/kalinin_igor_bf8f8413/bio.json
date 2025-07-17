@@ -1,0 +1,16 @@
+{
+  "fullName": "Игорь Игнатьевич Калинин",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Cloud-инженерия"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["AWS", "Terraform", "Kubernetes", "Serverless", "Prometheus"],
+    "platforms": ["AWS", "GCP", "Azure"]
+  },
+  "experienceYears": 11,
+  "contacts": {
+    "email": "i.kalinin.cloud@gmail.com",
+    "phone": "+7 (918) 345-67-89"
+  },
+  "bio": "Игорь — cloud architect с опытом миграции в облако. В Сбере проектировал гибридную инфраструктуру. В Mail.ru Group: 1) Оптимизировал cloud costs на 40%, 2) Внедрил multi-account стратегию, 3) Построил систему мониторинга. Имеет 10+ cloud сертификаций."
+}

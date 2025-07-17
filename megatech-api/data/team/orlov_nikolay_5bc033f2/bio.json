@@ -1,0 +1,16 @@
+{
+  "fullName": "Николай Геннадьевич Орлов",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Data Engineering"],
+    "langs": ["Русский", "Английский", "Немецкий"],
+    "techs": ["Apache Spark", "Airflow", "Hadoop", "Flink", "Snowflake"],
+    "platforms": ["Linux", "AWS", "GCP"]
+  },
+  "experienceYears": 7,
+  "contacts": {
+    "email": "n.orlov.data@gmail.com",
+    "phone": "+7 (916) 234-56-78"
+  },
+  "bio": "Николай — lead data engineer с экспертизой в построении масштабируемых ETL-систем. В СберТехе создал платформу обработки финансовых транзакций объемом 10+ TB/day. В Ozon оптимизировал пайплайны рекомендательных систем, сократив время выполнения с 6 до 1.5 часов. В настоящее время строит real-time analytics platform для международного ритейлера. Разработал: 1) Систему incremental processing, снизившую costs на 60%, 2) Фреймворк мониторинга data quality с 150+ метриками, 3) Unified metadata layer для 500+ датасетов. Глубокие знания: распределённые вычисления (успешно debugged skew issues на 2000+ core кластерах), оптимизация запросов (переписал 80+ HiveQL → Spark SQL), CDC (Debezium). Имеет сертификации: Google Professional Data Engineer, AWS Big Data Specialist. Организатор московского Data Engineering Meetup, автор популярного Telegram-канала про data-инфраструктуру."
+}

@@ -1,0 +1,16 @@
+{
+  "fullName": "Руслан Олегович Агафонов",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Кибербезопасность"],
+    "langs": ["Русский", "Английский", "Арабский"],
+    "techs": ["SIEM", "IDS/IPS", "Burp Suite", "Metasploit", "OWASP"],
+    "platforms": ["Kali Linux", "AWS Security", "Azure Sentinel"]
+  },
+  "experienceYears": 9,
+  "contacts": {
+    "email": "r.agafanov.security@gmail.com",
+    "phone": "+7 (918) 123-45-67"
+  },
+  "bio": "Руслан — penetration tester с опытом аудита финансовых систем. В Тинькофф обнаружил и устранил 150+ уязвимостей. В Альфа-Банке: 1) Разработал программу обучения по безопасности, 2) Создал систему мониторинга угроз, 3) Внедрил автоматизированное сканирование кода. Специализация: 1) Web application security, 2) Red teaming, 3) Secure SDLC. Имеет сертификаты OSCP, CEH и CISSP."
+}

@@ -1,0 +1,16 @@
+{
+  "fullName": "Василий Рудольфович Суханов",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Cloud-инженерия"],
+    "langs": ["Русский", "Английский", "Немецкий"],
+    "techs": ["AWS", "Terraform", "Kubernetes", "Serverless", "Prometheus"],
+    "platforms": ["AWS", "GCP", "Azure"]
+  },
+  "experienceYears": 12,
+  "contacts": {
+    "email": "v.sukhanov.cloud@gmail.com",
+    "phone": "+7 (917) 567-89-01"
+  },
+  "bio": "Василий — cloud architect с опытом построения масштабируемых облачных решений. В Яндексе проектировал инфраструктуру для облачного marketplace (1000+ виртуальных машин). В Ozon: 1) Оптимизировал cloud costs на 40% через right-sizing, 2) Внедрил multi-account стратегию для 50+ команд, 3) Построил систему мониторинга для 200+ метрик. Специализация: 1) Multi-cloud архитектуры (AWS + GCP), 2) Serverless-приложения (Lambda, Cloud Functions), 3) Cloud security (разработал 150+ security policies). Ключевые проекты: 1) Миграция монолита на cloud-native (200 микросервисов), 2) Создание internal developer platform, 3) Реализация disaster recovery между регионами. Имеет 10+ cloud сертификаций. Автор курса по облачным технологиям в МГТУ им. Баумана."
+}

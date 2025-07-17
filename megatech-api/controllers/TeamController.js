@@ -6,7 +6,7 @@ class TeamController {
 
 
   getEmployeeById = (request, response) => {
-    const id = parseInt(request.params.id);
+    const id = request.params.id;
     const employee = this.teamService.getEmployeeById(id);
     response.json(employee);
   }

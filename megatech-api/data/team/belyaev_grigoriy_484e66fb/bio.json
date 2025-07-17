@@ -1,0 +1,16 @@
+{
+  "fullName": "Григорий Фёдорович Беляев",
+  "sex": "male",
+  "skills": {
+    "specialization": ["DevOps"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["Terraform", "Ansible", "Prometheus", "Grafana", "ArgoCD"],
+    "platforms": ["AWS", "Kubernetes", "OpenStack"]
+  },
+  "experienceYears": 10,
+  "contacts": {
+    "email": "g.belyaev.devops@gmail.com",
+    "phone": "+7 (917) 345-67-89"
+  },
+  "bio": "Григорий — senior DevOps engineer с экспертизой в облачных технологиях. В Mail.ru Group автоматизировал развертывание инфраструктуры для 1000+ серверов. В X5 Group: 1) Построил GitOps-пайплайны для 300 микросервисов, 2) Внедрил service mesh (Linkerd), 3) Создал систему централизованного логирования. Специализация: 1) Infrastructure as Code (написал 40K строк Terraform), 2) CI/CD оптимизация (сократил время сборки с 30 до 5 минут), 3) Безопасность облачных сред. Ключевые проекты: 1) Миграция из дата-центра в AWS (200+ сервисов), 2) Настройка автоскейлинга (экономия $250K/год), 3) Реализация disaster recovery плана. Имеет сертификации CKA, CKAD и AWS Solutions Architect. Организатор DevOps митапов в Москве."
+}

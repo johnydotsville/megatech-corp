@@ -1,0 +1,16 @@
+{
+  "fullName": "Семён Георгиевич Медведев",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Data Science"],
+    "langs": ["Русский", "Английский", "Иврит"],
+    "techs": ["Python", "PyTorch", "TensorFlow", "Spark", "MLflow"],
+    "platforms": ["AWS SageMaker", "Databricks", "Hadoop"]
+  },
+  "experienceYears": 8,
+  "contacts": {
+    "email": "s.medvedev.ds@gmail.com",
+    "phone": "+7 (917) 901-23-45"
+  },
+  "bio": "Семён — senior data scientist с фокусом на NLP и компьютерное зрение. В Яндексе разрабатывал алгоритмы обработки естественного языка для Алисы. В Сбере создал: 1) Систему анализа тональности отзывов, 2) Модель распознавания документов, 3) Чат-бота для клиентской поддержки. Специализация: 1) Transfer learning, 2) Model optimization, 3) MLOps. Реализовал: 1) Пайплайн для обучения моделей на 1M+ примеров, 2) Систему мониторинга дрейфа данных, 3) Инструмент объяснения предсказаний. Автор научных публикаций по deep learning."
+}

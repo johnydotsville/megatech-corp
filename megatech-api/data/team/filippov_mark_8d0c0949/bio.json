@@ -1,0 +1,16 @@
+{
+  "fullName": "Марк Андреевич Филиппов",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Мобильная разработка"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["Kotlin", "Swift", "Flutter", "Firebase", "gRPC"],
+    "platforms": ["Android", "iOS"]
+  },
+  "experienceYears": 4,
+  "contacts": {
+    "email": "m.filippov.mobile@gmail.com",
+    "phone": "+7 (919) 901-23-45"
+  },
+  "bio": "Марк — mobile developer с опытом создания кросс-платформенных приложений. В Яндекс.Такси разрабатывал клиентскую часть приложения. В Сбере: 1) Оптимизировал производительность (уменьшил crashes на 50%), 2) Создал reusable UI-компоненты, 3) Внедрил автоматическое тестирование. Специализация: 1) Native development, 2) Performance optimization, 3) CI/CD для мобильных приложений."
+}

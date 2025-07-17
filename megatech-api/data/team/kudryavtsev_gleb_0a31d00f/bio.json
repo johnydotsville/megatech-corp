@@ -1,0 +1,16 @@
+{
+  "fullName": "Глеб Артёмович Кудрявцев",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Cloud Security"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["AWS IAM", "Terraform", "SIEM", "OWASP", "KMS"],
+    "platforms": ["AWS", "GCP", "Azure"]
+  },
+  "experienceYears": 11,
+  "contacts": {
+    "email": "g.kudryavtsev.sec@gmail.com",
+    "phone": "+7 (916) 678-90-12"
+  },
+  "bio": "Глеб — директор по кибербезопасности с фокусом на облачные techs. В Kaspersky построил SOC для защиты SaaS-продуктов (24/7 monitoring). В VK Cloud Solutions разработал: 1) Multi-account landing zone, 2) Automated compliance framework (GDPR, PCI DSS), 3) Threat intelligence platform. Сейчас CISO в международной fintech-компании. Достижения: 1) Предотвратил криптоджекинг атаку (экономия $500k+), 2) Внедрил zero-trust architecture, 3) Создал security champions program (50+ trained engineers). Эксперт в: 1) Cloud hardening (CIS benchmarks), 2) Secrets management (Hashicorp Vault + автоrotation), 3) Container security (Falco, Aqua). Имеет 15+ сертификаций: CISSP, CCSP, AWS Security Specialty. Автор методики 'Security as Code' (Terraform + Checkov + OPA). Член ENISA экспертного совета, лектор в МФТИ."
+}

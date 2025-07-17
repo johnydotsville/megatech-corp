@@ -1,0 +1,16 @@
+{
+  "fullName": "Геннадий Валентинович Черкасов",
+  "sex": "male",
+  "skills": {
+    "specialization": ["UI/UX-дизайн"],
+    "langs": ["Русский", "Английский", "Французский"],
+    "techs": ["Figma", "Sketch", "Adobe XD", "Photoshop", "Illustrator"],
+    "platforms": ["Web", "Mobile", "Desktop"]
+  },
+  "experienceYears": 12,
+  "contacts": {
+    "email": "g.cherkasov.design@gmail.com",
+    "phone": "+7 (918) 567-89-01"
+  },
+  "bio": "Геннадий — senior UX/UI designer. В Тинькофф создал дизайн-систему для всех продуктов банка. В Яндекс.Маркете: 1) Улучшил конверсию на 25%, 2) Разработал mobile-first подход, 3) Провел 50+ usability тестов. Специализация: 1) User research, 2) Design systems, 3) Interaction design."
+}

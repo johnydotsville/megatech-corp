@@ -1,0 +1,16 @@
+{
+  "fullName": "Герман Валентинович Симонов",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Кибербезопасность"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["SIEM", "IDS/IPS", "Burp Suite", "Metasploit", "OWASP ZAP"],
+    "platforms": ["Kali Linux", "Windows Server"]
+  },
+  "experienceYears": 9,
+  "contacts": {
+    "email": "g.simonov.security@gmail.com",
+    "phone": "+7 (919) 678-90-12"
+  },
+  "bio": "Герман — penetration tester с опытом аудита корпоративных сетей. В Лаборатории Касперского проводил тестирование на проникновение для 30+ компаний. В Сбере: 1) Обнаружил и устранил 80+ уязвимостей, 2) Разработал программу обучения по безопасности, 3) Создал систему мониторинга угроз. Специализация: 1) Web application security, 2) Red teaming, 3) Secure code review. Имеет сертификаты OSCP и CISSP."
+}

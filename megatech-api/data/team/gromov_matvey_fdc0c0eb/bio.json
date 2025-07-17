@@ -1,0 +1,16 @@
+{
+  "fullName": "Матвей Данилович Громов",
+  "sex": "male",
+  "skills": {
+    "specialization": ["QA / Тестирование"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["Selenium", "Cypress", "JMeter", "Postman", "Allure"],
+    "platforms": ["Web", "Mobile", "API"]
+  },
+  "experienceYears": 5,
+  "contacts": {
+    "email": "m.gromov.qa@gmail.com",
+    "phone": "+7 (919) 789-01-23"
+  },
+  "bio": "Матвей — QA automation engineer с опытом тестирования высоконагруженных систем. В Яндексе разрабатывал фреймворк для end-to-end тестирования. В Ozon: 1) Внедрил performance testing в CI/CD, 2) Создал систему визуального регрессионного тестирования, 3) Оптимизировал тестовые пайплайны. Специализация: 1) Test automation, 2) Load testing, 3) Quality gates."
+}

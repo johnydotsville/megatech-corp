@@ -11,14 +11,14 @@ const app = express();
 app.use(cors()); // Разрешить запросы с любого origin (для разработки)
 app.use(express.json()); // Парсинг JSON в теле запроса
 
-const team = loadTeamData();
+const team = loadTeamData(path.join(__dirname, 'data/team'));
 const teamService = new TeamService(team);
 const teamController = new TeamController(teamService);
 
 
-const empPhotoPath = path.join(__dirname, 'public', 'employees');
-app.use('/employees/photos', express.static(empPhotoPath));
-// http://localhost:3007/employees/photos/m001.jpeg
+const empPhotoPath = path.join(__dirname, 'public', 'team', 'photo');
+app.use('/team/photo', express.static(empPhotoPath));
+// http://localhost:3007/team/photo/2f154d50.jpg
 
 
 app.use((request, response, next) => {

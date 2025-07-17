@@ -1,0 +1,16 @@
+{
+  "fullName": "Ярослав Кириллович Кузнецов",
+  "sex": "male",
+  "skills": {
+    "specialization": ["DevOps"],
+    "langs": ["Русский", "Английский", "Немецкий"],
+    "techs": ["Terraform", "Ansible", "Prometheus", "Grafana", "ArgoCD"],
+    "platforms": ["AWS", "Kubernetes", "OpenStack"]
+  },
+  "experienceYears": 12,
+  "contacts": {
+    "email": "y.kuznetsov.devops@gmail.com",
+    "phone": "+7 (916) 901-23-45"
+  },
+  "bio": "Ярослав — senior DevOps engineer с фокусом на надежности инфраструктуры. В Ростелекоме автоматизировал развертывание облачных сервисов для 10K+ виртуальных машин. В Ozon: 1) Построил GitOps-пайплайны для 500 микросервисов, 2) Внедрил service mesh (Istio), 3) Создал систему мониторинга на основе 2000+ метрик. Специализация: 1) Infrastructure as Code (написал 50K строк Terraform), 2) CI/CD оптимизация (уменьшил время сборки с 40 до 7 минут), 3) Безопасность облачной инфраструктуры. Ключевые проекты: 1) Миграция монолита на k8s (200+ подов), 2) Автоскейлинг кластеров (экономия $300K/год), 3) Disaster recovery план для критических сервисов. Имеет сертификации CKA, CKAD и AWS Solutions Architect. Ведущий подкаста о DevOps-практиках."
+}

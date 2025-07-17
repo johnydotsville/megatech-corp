@@ -1,0 +1,16 @@
+{
+  "fullName": "Вероника Леонидовна Ермакова",
+  "sex": "female",
+  "skills": {
+    "specialization": ["Контент и маркетинг"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["SEO", "Google Analytics", "SEMrush", "ChatGPT", "Midjourney", "HubSpot", "LinkedIn Ads"],
+    "platforms": ["Social Media", "CMS", "Email Marketing"]
+  },
+  "experienceYears": 6,
+  "contacts": {
+    "email": "v.ermakova.cmo@protonmail.com",
+    "phone": "+7 (915) 556-67-78"
+  },
+  "bio": "Вероника — директор по маркетингу с опытом в B2B и edtech. Основные достижения: 1) Запуск образовательного YouTube-канала (100K+ подписчиков), 2) Рост органического трафика на 200% за год, 3) Внедрение AI-инструментов для генерации контента. Специализируется на: 1) Контент-стратегиях, 2) Employer branding, 3) Веб-аналитике. Провела 50+ воркшопов по digital-маркетингу. Курирует стартапы в акселераторе."
+}

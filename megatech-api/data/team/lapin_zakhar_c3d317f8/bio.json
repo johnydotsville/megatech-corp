@@ -1,0 +1,16 @@
+{
+  "fullName": "Захар Павлович Лапин",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Cloud-инженерия"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["AWS", "Terraform", "Kubernetes", "Serverless", "Prometheus"],
+    "platforms": ["AWS", "GCP"]
+  },
+  "experienceYears": 6,
+  "contacts": {
+    "email": "z.lapin.cloud@gmail.com",
+    "phone": "+7 (919) 890-12-34"
+  },
+  "bio": "Захар — cloud engineer с опытом построения масштабируемых облачных решений. В Mail.ru Group участвовал в миграции инфраструктуры в AWS. В Тинькофф: 1) Оптимизировал cloud costs на 25%, 2) Внедрил multi-account стратегию, 3) Построил систему мониторинга. Специализация: 1) Infrastructure as Code, 2) Serverless, 3) Cloud security. Имеет сертификаты AWS Solutions Architect и Kubernetes Administrator."
+}

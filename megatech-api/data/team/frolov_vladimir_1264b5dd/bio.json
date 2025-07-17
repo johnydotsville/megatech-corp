@@ -1,0 +1,16 @@
+{
+  "fullName": "Владимир Александрович Фролов",
+  "sex": "male",
+  "skills": {
+    "specialization": ["DevOps", "SRE"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["Kubernetes", "Istio", "ArgoCD", "Prometheus", "Grafana"],
+    "platforms": ["GCP", "AWS", "On-prem"]
+  },
+  "experienceYears": 10,
+  "contacts": {
+    "email": "v.frolov.sre@gmail.com",
+    "phone": "+7 (916) 345-67-89"
+  },
+  "bio": "Владимир — principal SRE с десятилетним опытом обеспечения надежности крупномасштабных систем. В Яндексе создал SRE-практику для Поиска (99.99% доступности при 1B+ запросов/день). В Tinkoff внедрил: 1) Multi-cluster Kubernetes (30+ кластеров), 2) Automated canary analysis, 3) Chaos engineering framework. Текущая позиция — Head of Platform Engineering в стартапе с $2B valuation. Ключевые достижения: 1) Снизил MTTR с 4 часов до 25 минут через улучшенный monitoring (2000+ алертов → 50 key SLO-based), 2) Автоматизировал 90% рутинных операций через internal developer platform, 3) Построил capacity planning модель, сэкономив $1.2M/год. Эксперт в: 1) Service mesh (мигрировали 500+ сервисов на Istio), 2) GitOps (5000+ deployments/month), 3) Performance tuning (JVM, Linux kernel). Частый спикер на KubeCon, автор книги «SRE для быстрорастущих компаний»."
+}

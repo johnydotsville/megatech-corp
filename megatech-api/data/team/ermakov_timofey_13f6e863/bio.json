@@ -1,0 +1,16 @@
+{
+  "fullName": "Тимофей Леонидович Ермаков",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Frontend-архитектура"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["TypeScript", "React", "GraphQL", "Webpack", "Next.js"],
+    "platforms": ["MacOS", "Linux"]
+  },
+  "experiencеYears": 9,
+  "contacts": {
+    "email": "t.ermakov.front@gmail.com",
+    "phone": "+7 (916) 567-89-01"
+  },
+  "bio": "Тимофей — frontend-архитектор с уникальным опытом масштабирования сложных SPA. В Яндексе переписал Маркет с jQuery на React (улучшил LCP с 5s → 1.2s). В Tinkoff: 1) Создал design system (50+ reusable components), 2) Внедрил micro-frontends (20+ autonomous teams), 3) Разработал performance monitoring dashboard. В настоящее время Chief Frontend Architect в международном fintech. Ключевые проекты: 1) Framework для изоморфных приложений (SSR + CSR hybrid), 2) Dev tools для visual regression testing, 3) Build system с incremental compilation (ускорил сборки на 70%). Эксперт в: 1) Bundle optimization (сжал main bundle с 2MB → 300KB), 2) State management (разработал custom solution на proxies), 3) Web Components interoperability. Автор популярной библиотеки для lazy loading изображений (10k+ GitHub stars). Регулярный спикер на Frontend Conf, член TC39 contributors."
+}

@@ -1,0 +1,16 @@
+{
+  "fullName": "Константин Борисович Савельев",
+  "sex": "male",
+  "skills": {
+    "specialization": ["Machine Learning Engineering"],
+    "langs": ["Русский", "Английский", "Французский"],
+    "techs": ["Python", "TensorFlow", "Kubeflow", "Ray", "MLflow"],
+    "platforms": ["Linux", "AWS SageMaker"]
+  },
+  "experienceYears": 6,
+  "contacts": {
+    "email": "k.savelyev.ml@gmail.com",
+    "phone": "+7 (916) 456-78-90"
+  },
+  "bio": "Константин — ML engineer с фокусом на production-grade системы. В Avito построил платформу для обучения и serving 100+ моделей рекомендаций (40% uplift в CTR). В Wildberries разработал: 1) Feature store для 1000+ фичей, 2) Auto-retraining pipeline, 3) A/B тестирования инфраструктуру. Сейчас работает в международной AI-компании над системой real-time fraud detection. Специализация: 1) Оптимизация inference (снизил latency с 500ms → 50ms через ONNX+TensorRT), 2) Feature engineering at scale (PySpark + Dask), 3) MLOps (внедрил full CI/CD для ML). Решил сложные проблемы: data drift detection (собственный алгоритм на KS-тестах), model versioning (разработал custom solution до появления MLflow). Автор 3 патентов в области обработки временных рядов. Ведущий подкаста «ML в продакшне», организатор ODS.ai meetups. Имеет публикации на NeurIPS workshops по topics monitoring."
+}

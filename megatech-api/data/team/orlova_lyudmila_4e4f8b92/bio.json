@@ -1,0 +1,16 @@
+{
+  "fullName": "Людмила Геннадьевна Орлова",
+  "sex": "female",
+  "skills": {
+    "specialization": ["Аналитика"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["Python", "SQL", "Apache Spark", "Tableau", "A/B тестирование", "Machine Learning basics"],
+    "platforms": ["Linux", "Cloud", "Big Data"]
+  },
+  "experienceYears": 5,
+  "contacts": {
+    "email": "l.orlova.data@yandex.ru",
+    "phone": "+7 (916) 223-44-55"
+  },
+  "bio": "Людмила — data scientist с упором на аналитику. Карьеру начала в ритейле, где автоматизировала отчёты. Основные достижения: 1) Построение рекомендательной системы (+15% к среднему чеку), 2) Разработка ETL-пайплайнов для обработки 1ТБ+ данных ежедневно, 3) Создание дашбордов для C-level. Специализируется на: 1) Predictive analytics, 2) NLP (анализ отзывов), 3) Data governance. Преподаёт на курсах по аналитике, автор статей о DataOps."
+}

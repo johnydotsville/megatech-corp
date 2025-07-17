@@ -1,0 +1,16 @@
+{
+  "fullName": "Эдуард Сергеевич Львов",
+  "sex": "male",
+  "skills": {
+    "specialization": ["DevOps"],
+    "langs": ["Русский", "Английский"],
+    "techs": ["Kubernetes", "Terraform", "ArgoCD", "Prometheus", "Grafana"],
+    "platforms": ["AWS", "GCP", "On-premise"]
+  },
+  "experienceYears": 8,
+  "contacts": {
+    "email": "e.lvov.devops@gmail.com",
+    "phone": "+7 (919) 456-78-90"
+  },
+  "bio": "Эдуард — DevOps engineer с опытом построения надежной инфраструктуры. В Mail.ru Group участвовал в миграции 500+ сервисов на Kubernetes. В Ozon: 1) Внедрил GitOps подход, 2) Построил систему мониторинга на 2000+ метрик, 3) Оптимизировал затраты на облако на 30%. Специализация: 1) CI/CD pipelines, 2) Infrastructure as Code, 3) Cloud security. Разработал: 1) Автоматическую систему масштабирования, 2) Disaster recovery план, 3) Internal developer platform. Имеет сертификации CKA и AWS Solutions Architect."
+}
