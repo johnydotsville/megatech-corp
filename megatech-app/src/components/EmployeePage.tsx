@@ -8,16 +8,6 @@ import { FeedbackView } from '@components/FeedbackView';
 export function EmployeePage() {
   const params = useParams();
   const id = params.id;
-  
-  // const { employee: employeeBio, employeeLoading: employeeBioLoading, employeeError: employeeBioError } = useEmployee(id);
-
-  // if (employeeBioLoading) {
-  //   return <Box>Загружается информация о сотруднике...</Box>
-  // }
-
-  // if (employeeBioError) {
-  //   return <Box>Не удалось загрузить информацию о сотруднике. Попробуйте позже.</Box>
-  // }
 
   const { 
     employeeBio, employeeBioLoading, employeeBioError,

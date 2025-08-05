@@ -19,6 +19,7 @@ app.use(cors()); // Разрешить запросы с любого origin (д
 app.use(express.json()); // Парсинг JSON в теле запроса
 
 const team = loadBios(path.join(__dirname, 'data/team'));
+console.log(team)
 const feedbacks = loadFeedbacks(path.join(__dirname, 'data/team'));
 
 const teamService = new TeamService(team);

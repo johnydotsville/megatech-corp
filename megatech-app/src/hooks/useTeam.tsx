@@ -1,8 +1,16 @@
 import { useQuery } from "@tanstack/react-query";
 import { fetchTeam } from '@/src/api/fetchTeam';
+import type { Employee } from "../types/Employee";
 
 
-export function useTeam(page = 1, limit = 10) {
+type UseTeamResult = {
+  team: Employee[];
+  teamLoading: boolean;
+  teamError: Error | null;
+}
+
+
+export function useTeam(page: number = 1, limit: number = 10): UseTeamResult {
   const { data, isLoading, error } = useQuery({
     queryKey: ["team", { page, limit }],
     queryFn: async () => {

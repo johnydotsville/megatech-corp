@@ -1,10 +1,11 @@
 import { Stack, Box } from '@mui/material';
 import { useTeam } from '@/src/hooks/useTeam';
-import { EmployeeCard } from './EmployeeCard';
 import { useSearchParams } from 'react-router-dom';
+import type { Employee } from '@src/types/Employee';
+import { EmployeeList } from './EmployeeList';
 
 
-export function TeamPagination() {
+export function TeamPage() {
   const [searchParams] = useSearchParams();
   const page = Number(searchParams.get('page')) || 1;
   const limit = Number(searchParams.get('limit')) || 10;
@@ -21,7 +22,7 @@ export function TeamPagination() {
 
   return (
     <Stack spacing={3} alignItems='center'>
-      { team.map(emp => <EmployeeCard key={emp.id} employee={emp} />) }
+      <EmployeeList employees={team} />
     </Stack>
   )
 }
