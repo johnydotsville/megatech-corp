@@ -6,7 +6,7 @@ import { usePrefetchEmployee } from '../hooks/usePrefetchEmployee';
 export function EmployeeCard({ employee }) {
   const photoUrl = `http://localhost:3007${employee.photo}`;
   const navigate = useNavigate();
-  const prefetchEmployee = usePrefetchEmployee();
+  // const prefetchEmployee = usePrefetchEmployee();
 
   const gotoEmployeePage = (id) => {
     navigate(`/team/${id}`);
@@ -31,7 +31,7 @@ export function EmployeeCard({ employee }) {
       <Stack direction='row' justifyContent='right'>
         <Button 
           onClick={() => gotoEmployeePage(employee.id)} 
-          onMouseEnter={() => prefetchEmployee(employee.id)}
+          // onMouseEnter={() => prefetchEmployee(employee.id)}
         >
           Подробнее
         </Button>

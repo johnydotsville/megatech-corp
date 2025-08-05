@@ -45,7 +45,7 @@ function loadTeamData(rootPath) {
   processDirectory(rootPath);
   console.log(`⚠️ Всего специалистов обработано: ${bios.size}`);
   
-  return shuffleArray(bios);
+  return shuffleArray(bios, 5);
 }
 
 

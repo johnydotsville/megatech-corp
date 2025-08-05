@@ -1,0 +1,24 @@
+const path = require('path');
+const fs = require('fs');
+const loadDataFromDirectories = require('./loadDataFromDirectories');
+
+
+function loadFeedbacks(rootPath) {
+  return loadDataFromDirectories(rootPath, (fullPath, uuid, result) => {
+    const feedbackPath = path.join(fullPath, 'feedbacks.json');
+    try {
+      const feedbackData = fs.readFileSync(feedbackPath, 'utf8');
+      const feedbackJson = JSON.parse(feedbackData);
+      result.push({ 
+        employeeId: uuid, 
+        feedbacks: feedbackJson
+      });
+      console.log(`✅ Успешно считаны отзывы о специалисте: ${uuid}`);
+    } catch (err) {
+      console.error(`❌ Ошибка в ${fullPath}:`, err.message);
+    }
+  });
+}
+
+
+module.exports = loadFeedbacks;

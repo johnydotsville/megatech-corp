@@ -1,6 +1,6 @@
 class TeamController {
 
-  constructor(teamService) {
+  constructor(teamService,) {
     this.teamService = teamService;
   }
 
