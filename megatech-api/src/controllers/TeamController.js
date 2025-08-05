@@ -1,6 +1,6 @@
 class TeamController {
 
-  constructor(teamService,) {
+  constructor(teamService) {
     this.teamService = teamService;
   }
 
@@ -15,14 +15,13 @@ class TeamController {
   getEmployeesPagination = (request, response) => {
     let { page = 1, limit = 10 } = request.query;
 
-    page = parseInt(page);
-    limit = parseInt(limit);
-
-    if (isNaN(page)) page = 1;
-    if (isNaN(limit)) limit = 10;
+    page = Math.max(1, parseInt(page) || 1);
+    limit = Math.max(1, parseInt(limit) || 10);
 
     const employees = this.teamService.getEmployeesPagination(page, limit);
+    // const totalPages = Math.ceil(this.teamService.getTotalEmployeesCount() / limit);
 
+    response.header('X-Total-Count', this.teamService.getTotalEmployeesCount());
     response.json(employees);
   }
 }

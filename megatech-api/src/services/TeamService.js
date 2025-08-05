@@ -23,6 +23,11 @@ class TeamService {
 
     return this.team.slice(offset, offset + limit);
   }
+
+
+  getTotalEmployeesCount() {
+    return this.team.length;
+  }
 }
 
 

@@ -4,7 +4,8 @@ import type { Employee } from "../types/Employee";
 
 
 type UseTeamResult = {
-  team: Employee[];
+  team: Employee[] | undefined;
+  teamSize: number | undefined;
   teamLoading: boolean;
   teamError: Error | null;
 }
@@ -19,7 +20,8 @@ export function useTeam(page: number = 1, limit: number = 10): UseTeamResult {
   });
 
   return {
-    team: data,
+    team: data?.employees,
+    teamSize: data?.pagination.totalEmployees,
     teamLoading: isLoading,
     teamError: error
   }
