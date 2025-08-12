@@ -1,8 +1,8 @@
-const path = require('path');
-const fs = require('fs');
+import path from 'path';
+import fs from 'fs';
 
 
-function loadDataFromDirectories(rootPath, processFileCallback) {
+export function loadDataFromDirectories(rootPath, processFileCallback) {
   const result = [];
 
   function traverseDirectory(directory) {
@@ -30,6 +30,3 @@ function loadDataFromDirectories(rootPath, processFileCallback) {
   traverseDirectory(rootPath);
   return result;
 }
-
-
-module.exports = loadDataFromDirectories;

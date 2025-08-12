@@ -1,4 +1,6 @@
-class FeedbackController {
+export class FeedbackController {
+  private feedbackService: any;
+
 
   constructor(feedbackService) {
     this.feedbackService = feedbackService;
@@ -26,6 +28,3 @@ class FeedbackController {
   //   response.json(employees);
   // }
 }
-
-
-module.exports = FeedbackController;

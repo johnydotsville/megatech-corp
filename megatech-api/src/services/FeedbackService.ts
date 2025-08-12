@@ -1,4 +1,6 @@
-class FeedbackService {
+export class FeedbackService {
+  private feedbacks: any;
+  
 
   constructor(feedbacks) {
     this.feedbacks = feedbacks;
@@ -29,6 +31,3 @@ class FeedbackService {
   //   return this.feedbacks.slice(offset, offset + limit);
   // }
 }
-
-
-module.exports = FeedbackService;

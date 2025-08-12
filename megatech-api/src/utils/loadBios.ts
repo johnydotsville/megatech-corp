@@ -1,9 +1,9 @@
-const path = require('path');
-const fs = require('fs');
-const loadDataFromDirectories = require('./loadDataFromDirectories');
+import path from 'path';
+import fs from 'fs';
+import { loadDataFromDirectories } from './loadDataFromDirectories';
 
 
-function loadBios(rootPath) {
+export function loadBios(rootPath) {
   return loadDataFromDirectories(rootPath, (fullPath, uuid, result) => {
     const bioPath = path.join(fullPath, 'bio.json');
     try {
@@ -15,11 +15,8 @@ function loadBios(rootPath) {
         photo: `/team/photo/${uuid}.jpg`
       });
       console.log(`✅ Успешно считана инфа о специалисте: ${uuid}`);
-    } catch (err) {
+    } catch (err: any) {
       console.error(`❌ Ошибка в ${fullPath}:`, err.message);
     }
   });
 }
-
-
-module.exports = loadBios;

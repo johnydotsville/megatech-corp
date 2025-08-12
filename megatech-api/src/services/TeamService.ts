@@ -1,4 +1,6 @@
-class TeamService {
+export class TeamService {
+  private team: any;
+
 
   constructor(teamData) {
     this.team = teamData;
@@ -29,6 +31,3 @@ class TeamService {
     return this.team.length;
   }
 }
-
-
-module.exports = TeamService;

@@ -1,7 +1,9 @@
-const express = require('express');
+import express from 'express';
+
+
 const router = express.Router();
 
-module.exports = (controller) => {
+export function feedbackRouter(controller) {
   // router.get('/', controller.getEmployeesPagination);
   router.get('/:id', controller.getFeedbacksByEmployeeId);
   

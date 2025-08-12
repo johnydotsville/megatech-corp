@@ -1,4 +1,6 @@
-class TeamController {
+export class TeamController {
+  private teamService: any;
+  
 
   constructor(teamService) {
     this.teamService = teamService;
@@ -24,6 +26,3 @@ class TeamController {
     response.json(employees);
   }
 }
-
-
-module.exports = TeamController;

@@ -1,9 +1,9 @@
-const path = require('path');
-const fs = require('fs');
-const loadDataFromDirectories = require('./loadDataFromDirectories');
+import path from 'path';
+import fs from 'fs';
+import { loadDataFromDirectories } from './loadDataFromDirectories';
 
 
-function loadFeedbacks(rootPath) {
+export function loadFeedbacks(rootPath) {
   return loadDataFromDirectories(rootPath, (fullPath, uuid, result) => {
     const feedbackPath = path.join(fullPath, 'feedbacks.json');
     try {
@@ -22,6 +22,3 @@ function loadFeedbacks(rootPath) {
     }
   });
 }
-
-
-module.exports = loadFeedbacks;

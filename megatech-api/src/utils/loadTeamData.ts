@@ -1,9 +1,9 @@
-const path = require('path');
-const fs = require('fs');
-const shuffleArray = require('./shuffleArray');
+import  path from 'path';
+import fs from 'fs';
+import shuffleArray from './shuffleArray';
 
 
-function loadTeamData(rootPath) {
+export function loadTeamData(rootPath) {
   const bios = [];
 
   function processDirectory(directory) {
@@ -47,6 +47,3 @@ function loadTeamData(rootPath) {
   
   return shuffleArray(bios, 5);
 }
-
-
-module.exports = loadTeamData;

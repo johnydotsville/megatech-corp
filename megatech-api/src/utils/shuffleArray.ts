@@ -1,4 +1,4 @@
-function shuffleArray(array, seed = 0) {
+export function shuffleArray(array, seed = 0) {
    const newArray = [...array];
   let random = seed;
 
@@ -19,6 +19,3 @@ function shuffleArray(array, seed = 0) {
 
   return newArray;
 }
-
-
-module.exports = shuffleArray;
