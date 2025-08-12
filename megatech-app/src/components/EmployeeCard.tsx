@@ -1,9 +1,10 @@
 import { Stack, Box, Button, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { usePrefetchEmployee } from '../hooks/usePrefetchEmployee';
+import type { Employee } from '@src/types/Employee';
 
 
-export function EmployeeCard({ employee }) {
+export function EmployeeCard({ employee }: { employee: Employee}) {
   const photoUrl = `http://localhost:3007${employee.photo}`;
   const navigate = useNavigate();
   // const prefetchEmployee = usePrefetchEmployee();

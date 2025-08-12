@@ -37,6 +37,7 @@ export function EmployeePage() {
               <Box>{ employeeBio.contacts.email }</Box>
             </Stack>
             <Box>Опыт: { employeeBio.experienceYears } лет</Box>
+            <Box>Часовая ставка: {employee.hourlyRate} руб.</Box>
             <Box>Специализация: { employeeBio.skills.specialization }</Box>
             <Box>Владеет языками: { employeeBio.skills.langs.join(', ') }</Box>
             <Box>Платформы: { employeeBio.skills.platforms.join(', ') }</Box>

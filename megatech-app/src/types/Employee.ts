@@ -8,6 +8,7 @@ export type Employee = {
 	sex: EmployeeSex;
   skills: EmployeeSkills;
 	experienceYears: number;
+  hourlyRate: number;
   contacts: EmployeeContacts;
 	bio: string;
   photo: string;

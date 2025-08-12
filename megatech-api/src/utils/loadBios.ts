@@ -1,6 +1,7 @@
 import path from 'path';
 import fs from 'fs';
 import { loadDataFromDirectories } from './loadDataFromDirectories';
+import { calculateHourlyRate } from './calculateHourlyRate';
 
 
 export function loadBios(rootPath) {
@@ -12,6 +13,7 @@ export function loadBios(rootPath) {
       result.push({ 
         id: uuid, 
         ...bioJson,
+        hourlyRate: calculateHourlyRate(bioJson),
         photo: `/team/photo/${uuid}.jpg`
       });
       console.log(`✅ Успешно считана инфа о специалисте: ${uuid}`);

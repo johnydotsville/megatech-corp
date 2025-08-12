@@ -5,6 +5,8 @@ export function FeedbackView({ feedback }) {
   return (
     <Stack direction='column' border={1} padding={1}>
       <Box>{ feedback.from }</Box>
+      <Box>{ feedback.rate }</Box>
+      <Box>{ feedback.date }</Box>
       <Box>{ feedback.feedback }</Box>
     </Stack>
   )

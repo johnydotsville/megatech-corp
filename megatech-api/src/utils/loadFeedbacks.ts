@@ -1,6 +1,7 @@
 import path from 'path';
 import fs from 'fs';
 import { loadDataFromDirectories } from './loadDataFromDirectories';
+import { generateFeedbackDate } from './generateFeedbackDate';
 
 
 export function loadFeedbacks(rootPath) {
@@ -12,7 +13,8 @@ export function loadFeedbacks(rootPath) {
       result.push({ 
         employeeId: uuid, 
         feedbacks: feedbackJson.map((fb, i) => ({ 
-          id: `${uuid}-${i}`, 
+          id: `${uuid}-${i}`,
+          date: generateFeedbackDate(`${uuid}-${i}`),
           ...fb
         }))
       });
