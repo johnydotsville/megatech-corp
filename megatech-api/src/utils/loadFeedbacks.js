@@ -11,7 +11,10 @@ function loadFeedbacks(rootPath) {
       const feedbackJson = JSON.parse(feedbackData);
       result.push({ 
         employeeId: uuid, 
-        feedbacks: feedbackJson
+        feedbacks: feedbackJson.map((fb, i) => ({ 
+          id: `${uuid}-${i}`, 
+          ...fb
+        }))
       });
       console.log(`✅ Успешно считаны отзывы о специалисте: ${uuid}`);
     } catch (err) {

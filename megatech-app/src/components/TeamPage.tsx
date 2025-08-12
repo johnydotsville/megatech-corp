@@ -16,7 +16,7 @@ export function TeamPage() {
 
   const { team, teamSize, teamLoading, teamError } = useTeam(page, limit);
 
-  if (teamLoading) {
+  if (teamLoading) {  // TODO: Вместо этого сделать чтобы на экране появлялся полупрозрачный слой на время загрузки
     return <Box>Информация о сотрудниках загружается...</Box>
   }
 
@@ -28,15 +28,16 @@ export function TeamPage() {
     return <Box>Нет информации о сотрудниках.</Box>
   }
 
-  const handlePageSelect = useCallback((page: number) => {
+  const handlePageSelect = (page: number) => {
     setCurrentEmployeeListPage(page);
     navigate(`?page=${page}&limit=${limit}`);
-  }, [navigate, limit]);
+    window.scrollTo({ top: 0 });
+  };
 
-  const totalPages = useMemo(() => Math.ceil((teamSize ?? 0) / limit), [teamSize, limit]);
+  const totalPages = Math.ceil((teamSize ?? 0) / limit);
 
   return (
-    <Stack spacing={3} alignItems='center'>
+    <Stack spacing={3} alignItems='center' padding={5}>
       <EmployeeList employees={team} />
       <PaginationBar totalPages={totalPages} currentPage={currentEmployeeListPage} onPageSelect={handlePageSelect} />
     </Stack>

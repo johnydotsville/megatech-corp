@@ -3,6 +3,7 @@ import { useEmployee } from '@src/hooks/useEmployee';
 import { Stack, Box, Container } from '@mui/material';
 import { useEmployeeBioAndFeedbacks } from '@src/hooks/useEmployeeBioAndFeedbacks';
 import { FeedbackView } from '@components/FeedbackView';
+import { FeedbackForm } from './FeedbackForm';
 
 
 export function EmployeePage() {
@@ -26,28 +27,32 @@ export function EmployeePage() {
 
   return (
     <Container maxWidth='md'>
-    <Stack gap={2}>
-      <Stack direction='row' spacing={3}>
-        <img src={photoUrl} width={256}/>
-        <Stack spacing={3}>
-          <Box>{ employeeBio.fullName }</Box>
-          <Stack direction='row' spacing={2}>
-            <Box>{ employeeBio.contacts.phone }</Box>
-            <Box>{ employeeBio.contacts.email }</Box>
+      <Stack gap={2}>
+        <Stack direction='row' spacing={3}>
+          <img src={photoUrl} width={256}/>
+          <Stack spacing={3}>
+            <Box>{ employeeBio.fullName }</Box>
+            <Stack direction='row' spacing={2}>
+              <Box>{ employeeBio.contacts.phone }</Box>
+              <Box>{ employeeBio.contacts.email }</Box>
+            </Stack>
+            <Box>Опыт: { employeeBio.experienceYears } лет</Box>
+            <Box>Специализация: { employeeBio.skills.specialization }</Box>
+            <Box>Владеет языками: { employeeBio.skills.langs.join(', ') }</Box>
+            <Box>Платформы: { employeeBio.skills.platforms.join(', ') }</Box>
+            <Box>Технологии: { employeeBio.skills.techs.join(', ') }</Box>
           </Stack>
-          <Box>Опыт: { employeeBio.experienceYears } лет</Box>
-          <Box>Специализация: { employeeBio.skills.specialization }</Box>
-          <Box>Владеет языками: { employeeBio.skills.langs.join(', ') }</Box>
-          <Box>Платформы: { employeeBio.skills.platforms.join(', ') }</Box>
-          <Box>Технологии: { employeeBio.skills.techs.join(', ') }</Box>
         </Stack>
+        <Box sx={{ textAlign: 'justify' }}>{ employeeBio.bio }</Box>
       </Stack>
-      <Box sx={{ textAlign: 'justify' }}>{ employeeBio.bio }</Box>
-    </Stack>
-    <Box>Отзывы о сотруднике:</Box>
-    <Stack direction='column' gap={1}>
-      { feedbacks.feedbacks.map(feedback => <FeedbackView feedback={feedback} />) }
-    </Stack>
+      <Box>Отзывы о сотруднике:</Box>
+      <Stack direction='column' gap={1}>
+        { feedbacks.feedbacks.map(feedback => <FeedbackView key={feedback.id} feedback={feedback} />) }
+      </Stack>
+      <FeedbackForm 
+        employeeId={id!} 
+        onSend={(feedback) => alert(`Отзыв для сотрудника ${id}: ${feedback.text}`)}
+      />
     </Container>
   )
 }

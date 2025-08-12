@@ -19,7 +19,6 @@ class TeamController {
     limit = Math.max(1, parseInt(limit) || 10);
 
     const employees = this.teamService.getEmployeesPagination(page, limit);
-    // const totalPages = Math.ceil(this.teamService.getTotalEmployeesCount() / limit);
 
     response.header('X-Total-Count', this.teamService.getTotalEmployeesCount());
     response.json(employees);
